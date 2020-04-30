@@ -21,7 +21,7 @@ UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
-NameNetsHierarchically=0
+NameNetsHierarchically=1
 PowerPortNamesTakePriority=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
@@ -241,431 +241,400 @@ UniqueID=AFF8D3B2-D619-4BC2-9C49-FEA21353CFF5
 Description=18Tx
 AllowFabrication=0
 ParameterCount=0
-VariationCount=15
+VariationCount=6
 Variation1=Designator=R14A|UniqueId=\1TSJUHLFS\UPRMEAUF|Kind=1|AlternatePart= 
 Variation2=Designator=R14C|UniqueId=\3TSJUHLFS\UPRMEAUF|Kind=1|AlternatePart= 
-Variation3=Designator=R19C|UniqueId=\3TSJUHLFS\LVRLXENY|Kind=1|AlternatePart= 
-Variation4=Designator=R19B|UniqueId=\2TSJUHLFS\LVRLXENY|Kind=1|AlternatePart= 
-Variation5=Designator=R14B|UniqueId=\2TSJUHLFS\UPRMEAUF|Kind=1|AlternatePart= 
-Variation6=Designator=R19A|UniqueId=\1TSJUHLFS\LVRLXENY|Kind=1|AlternatePart= 
-Variation7=Designator=R?A|UniqueId=\1TSJUHLFS\HEVVXYEV|Kind=1|AlternatePart= 
-Variation8=Designator=R?C|UniqueId=\3TSJUHLFS\RLWVHXKK|Kind=1|AlternatePart= 
-Variation9=Designator=R?A|UniqueId=\1TSJUHLFS\RLWVHXKK|Kind=1|AlternatePart= 
-Variation10=Designator=R?B|UniqueId=\2TSJUHLFS\HEVVXYEV|Kind=1|AlternatePart= 
-Variation11=Designator=R?B|UniqueId=\2TSJUHLFS\RLWVHXKK|Kind=1|AlternatePart= 
-Variation12=Designator=R?C|UniqueId=\3TSJUHLFS\HEVVXYEV|Kind=1|AlternatePart= 
-Variation13=Designator=U?A|UniqueId=\1EWQHOCHA\NLTBDSLB|Kind=2|AlternatePart=Optical Transceiver|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-1521Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=False
-ParamVariation1=ParameterName=Comment|VariantValue=Optical Transceiver
-ParamDesignator1=U?A
-ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator2=U?A
-ParamVariation3=ParameterName=Created|VariantValue=2019_04_09_Kreppel
-ParamDesignator3=U?A
-ParamVariation4=ParameterName=Data Rate|VariantValue=5 MBd
-ParamDesignator4=U?A
-ParamVariation5=ParameterName=Description|VariantValue=Fibre Optic Transmitters, Receivers, Transceivers Versatile Link Horiz 5MBd Tx RoHS
-ParamDesignator5=U?A
-ParamVariation6=ParameterName=Footprint|VariantValue=HFBRx5XX
-ParamDesignator6=U?A
-ParamVariation7=ParameterName=Foreward Current|VariantValue=60 mA
-ParamDesignator7=U?A
-ParamVariation8=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator8=U?A
-ParamVariation9=ParameterName=Library Reference|VariantValue=HFBR-1521Z
-ParamDesignator9=U?A
-ParamVariation10=ParameterName=MF|VariantValue=Broadcom/Avago
-ParamDesignator10=U?A
-ParamVariation11=ParameterName=MPN|VariantValue=HFBR-1521Z
-ParamDesignator11=U?A
-ParamVariation12=ParameterName=PCB3D|VariantValue= 
-ParamDesignator12=U?A
-ParamVariation13=ParameterName=Pin Info|VariantValue= 
-ParamDesignator13=U?A
-ParamVariation14=ParameterName=Signal Integrity|VariantValue= 
-ParamDesignator14=U?A
-ParamVariation15=ParameterName=Simulation|VariantValue= 
-ParamDesignator15=U?A
-ParamVariation16=ParameterName=Supplier 1|VariantValue=Mouser
-ParamDesignator16=U?A
-ParamVariation17=ParameterName=Supplier 2|VariantValue=Digi-Key
-ParamDesignator17=U?A
-ParamVariation18=ParameterName=Supplier Part Number 1|VariantValue=630-HFBR-1521Z
-ParamDesignator18=U?A
-ParamVariation19=ParameterName=Supplier Part Number 2|VariantValue=516-2043-ND
-ParamDesignator19=U?A
-ParamVariation20=ParameterName=Supply Voltage|VariantValue=5V
-ParamDesignator20=U?A
-ParamVariation21=ParameterName=Wavelength|VariantValue=660 nm
-ParamDesignator21=U?A
-Variation14=Designator=U?B|UniqueId=\2EWQHOCHA\NLTBDSLB|Kind=2|AlternatePart=Optical Transceiver|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-1521Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=False
-ParamVariation22=ParameterName=Comment|VariantValue=Optical Transceiver
-ParamDesignator22=U?B
-ParamVariation23=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator23=U?B
-ParamVariation24=ParameterName=Created|VariantValue=2019_04_09_Kreppel
-ParamDesignator24=U?B
-ParamVariation25=ParameterName=Data Rate|VariantValue=5 MBd
-ParamDesignator25=U?B
-ParamVariation26=ParameterName=Description|VariantValue=Fibre Optic Transmitters, Receivers, Transceivers Versatile Link Horiz 5MBd Tx RoHS
-ParamDesignator26=U?B
-ParamVariation27=ParameterName=Footprint|VariantValue=HFBRx5XX
-ParamDesignator27=U?B
-ParamVariation28=ParameterName=Foreward Current|VariantValue=60 mA
-ParamDesignator28=U?B
-ParamVariation29=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator29=U?B
-ParamVariation30=ParameterName=Library Reference|VariantValue=HFBR-1521Z
-ParamDesignator30=U?B
-ParamVariation31=ParameterName=MF|VariantValue=Broadcom/Avago
-ParamDesignator31=U?B
-ParamVariation32=ParameterName=MPN|VariantValue=HFBR-1521Z
-ParamDesignator32=U?B
-ParamVariation33=ParameterName=PCB3D|VariantValue= 
-ParamDesignator33=U?B
-ParamVariation34=ParameterName=Pin Info|VariantValue= 
-ParamDesignator34=U?B
-ParamVariation35=ParameterName=Signal Integrity|VariantValue= 
-ParamDesignator35=U?B
-ParamVariation36=ParameterName=Simulation|VariantValue= 
-ParamDesignator36=U?B
-ParamVariation37=ParameterName=Supplier 1|VariantValue=Mouser
-ParamDesignator37=U?B
-ParamVariation38=ParameterName=Supplier 2|VariantValue=Digi-Key
-ParamDesignator38=U?B
-ParamVariation39=ParameterName=Supplier Part Number 1|VariantValue=630-HFBR-1521Z
-ParamDesignator39=U?B
-ParamVariation40=ParameterName=Supplier Part Number 2|VariantValue=516-2043-ND
-ParamDesignator40=U?B
-ParamVariation41=ParameterName=Supply Voltage|VariantValue=5V
-ParamDesignator41=U?B
-ParamVariation42=ParameterName=Wavelength|VariantValue=660 nm
-ParamDesignator42=U?B
-Variation15=Designator=U?C|UniqueId=\3EWQHOCHA\NLTBDSLB|Kind=2|AlternatePart=Optical Transceiver|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-1521Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=False
-ParamVariation43=ParameterName=Comment|VariantValue=Optical Transceiver
-ParamDesignator43=U?C
-ParamVariation44=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator44=U?C
-ParamVariation45=ParameterName=Created|VariantValue=2019_04_09_Kreppel
-ParamDesignator45=U?C
-ParamVariation46=ParameterName=Data Rate|VariantValue=5 MBd
-ParamDesignator46=U?C
-ParamVariation47=ParameterName=Description|VariantValue=Fibre Optic Transmitters, Receivers, Transceivers Versatile Link Horiz 5MBd Tx RoHS
-ParamDesignator47=U?C
-ParamVariation48=ParameterName=Footprint|VariantValue=HFBRx5XX
-ParamDesignator48=U?C
-ParamVariation49=ParameterName=Foreward Current|VariantValue=60 mA
-ParamDesignator49=U?C
-ParamVariation50=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator50=U?C
-ParamVariation51=ParameterName=Library Reference|VariantValue=HFBR-1521Z
-ParamDesignator51=U?C
-ParamVariation52=ParameterName=MF|VariantValue=Broadcom/Avago
-ParamDesignator52=U?C
-ParamVariation53=ParameterName=MPN|VariantValue=HFBR-1521Z
-ParamDesignator53=U?C
-ParamVariation54=ParameterName=PCB3D|VariantValue= 
-ParamDesignator54=U?C
-ParamVariation55=ParameterName=Pin Info|VariantValue= 
-ParamDesignator55=U?C
-ParamVariation56=ParameterName=Signal Integrity|VariantValue= 
-ParamDesignator56=U?C
-ParamVariation57=ParameterName=Simulation|VariantValue= 
-ParamDesignator57=U?C
-ParamVariation58=ParameterName=Supplier 1|VariantValue=Mouser
-ParamDesignator58=U?C
-ParamVariation59=ParameterName=Supplier 2|VariantValue=Digi-Key
-ParamDesignator59=U?C
-ParamVariation60=ParameterName=Supplier Part Number 1|VariantValue=630-HFBR-1521Z
-ParamDesignator60=U?C
-ParamVariation61=ParameterName=Supplier Part Number 2|VariantValue=516-2043-ND
-ParamDesignator61=U?C
-ParamVariation62=ParameterName=Supply Voltage|VariantValue=5V
-ParamDesignator62=U?C
-ParamVariation63=ParameterName=Wavelength|VariantValue=660 nm
-ParamDesignator63=U?C
-ParamVariationCount=63
+Variation3=Designator=R14B|UniqueId=\2TSJUHLFS\UPRMEAUF|Kind=1|AlternatePart= 
+Variation4=Designator=R26C|UniqueId=\3TSJUHLFS\RLWVHXKK|Kind=1|AlternatePart= 
+Variation5=Designator=R26A|UniqueId=\1TSJUHLFS\RLWVHXKK|Kind=1|AlternatePart= 
+Variation6=Designator=R26B|UniqueId=\2TSJUHLFS\RLWVHXKK|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
 [ProjectVariant3]
 UniqueID=267A4DA3-A555-4E0E-B038-0CD9A042998F
 Description=14Tx 4Rx
 AllowFabrication=0
 ParameterCount=0
-VariationCount=22
-Variation1=Designator=R?A|UniqueId=\1TSJUHLFS\OUDAWMGK|Kind=1|AlternatePart= 
-Variation2=Designator=R?C|UniqueId=\3TSJUHLFS\OUDAWMGK|Kind=1|AlternatePart= 
-Variation3=Designator=R?B|UniqueId=\2TSJUHLFS\OUDAWMGK|Kind=1|AlternatePart= 
-Variation4=Designator=U?A|UniqueId=\1TSJUHLFS\KITKQXEC|Kind=1|AlternatePart= 
-Variation5=Designator=D?A|UniqueId=\1TSJUHLFS\EABVVGHM|Kind=1|AlternatePart= 
-Variation6=Designator=D?C|UniqueId=\3TSJUHLFS\EABVVGHM|Kind=1|AlternatePart= 
-Variation7=Designator=D?B|UniqueId=\2TSJUHLFS\EABVVGHM|Kind=1|AlternatePart= 
-Variation8=Designator=U?C|UniqueId=\3TSJUHLFS\EYSAUGLG|Kind=1|AlternatePart= 
-Variation9=Designator=U?B|UniqueId=\2TSJUHLFS\EYSAUGLG|Kind=1|AlternatePart= 
-Variation10=Designator=R?A|UniqueId=\1TSJUHLFS\GUSFYINR|Kind=1|AlternatePart= 
-Variation11=Designator=R?A|UniqueId=\1TSJUHLFS\BSATMTFR|Kind=1|AlternatePart= 
-Variation12=Designator=R?C|UniqueId=\3TSJUHLFS\BSATMTFR|Kind=1|AlternatePart= 
-Variation13=Designator=R?B|UniqueId=\2TSJUHLFS\BSATMTFR|Kind=1|AlternatePart= 
-Variation14=Designator=R?B|UniqueId=\2TSJUHLFS\GUSFYINR|Kind=1|AlternatePart= 
-Variation15=Designator=R?C|UniqueId=\3TSJUHLFS\GUSFYINR|Kind=1|AlternatePart= 
-Variation16=Designator=U?A|UniqueId=\1TSJUHLFS\EYSAUGLG|Kind=1|AlternatePart= 
-Variation17=Designator=U?A|UniqueId=\1TSJUHLFS\VUQIQXAQ|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=False
+VariationCount=42
+Variation1=Designator=D4A|UniqueId=\1TSJUHLFS\EABVVGHM|Kind=1|AlternatePart= 
+Variation2=Designator=D4C|UniqueId=\3TSJUHLFS\EABVVGHM|Kind=1|AlternatePart= 
+Variation3=Designator=D4B|UniqueId=\2TSJUHLFS\EABVVGHM|Kind=1|AlternatePart= 
+Variation4=Designator=U5A|UniqueId=\1TSJUHLFS\ZIOYFUYJ|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
 ParamVariation1=ParameterName=Comment|VariantValue=Optical Reciever
-ParamDesignator1=U?A
+ParamDesignator1=U5A
 ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator2=U?A
+ParamDesignator2=U5A
 ParamVariation3=ParameterName=Created|VariantValue=2019_04_09_Kreppel
-ParamDesignator3=U?A
+ParamDesignator3=U5A
 ParamVariation4=ParameterName=Data Rate|VariantValue=5 MBd
-ParamDesignator4=U?A
+ParamDesignator4=U5A
 ParamVariation5=ParameterName=Description|VariantValue=Fibre Optic Transmitters, Receivers, Transceivers V-LINK HORIZ 5MBd RC VR RoHS
-ParamDesignator5=U?A
+ParamDesignator5=U5A
 ParamVariation6=ParameterName=Footprint|VariantValue=HFBRx5XX
-ParamDesignator6=U?A
+ParamDesignator6=U5A
 ParamVariation7=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator7=U?A
+ParamDesignator7=U5A
 ParamVariation8=ParameterName=Iout max|VariantValue=25 mA
-ParamDesignator8=U?A
+ParamDesignator8=U5A
 ParamVariation9=ParameterName=Library Reference|VariantValue=HFBR-2528Z
-ParamDesignator9=U?A
+ParamDesignator9=U5A
 ParamVariation10=ParameterName=MF|VariantValue=Boadcom/Avago
-ParamDesignator10=U?A
+ParamDesignator10=U5A
 ParamVariation11=ParameterName=MPN|VariantValue=HFBR-2521Z
-ParamDesignator11=U?A
+ParamDesignator11=U5A
 ParamVariation12=ParameterName=PCB3D|VariantValue= 
-ParamDesignator12=U?A
+ParamDesignator12=U5A
 ParamVariation13=ParameterName=Pin Info|VariantValue= 
-ParamDesignator13=U?A
+ParamDesignator13=U5A
 ParamVariation14=ParameterName=Signal Integrity|VariantValue= 
-ParamDesignator14=U?A
+ParamDesignator14=U5A
 ParamVariation15=ParameterName=Simulation|VariantValue= 
-ParamDesignator15=U?A
+ParamDesignator15=U5A
 ParamVariation16=ParameterName=Suppier Part Number 2|VariantValue=516-2062-ND
-ParamDesignator16=U?A
+ParamDesignator16=U5A
 ParamVariation17=ParameterName=Supplier 1|VariantValue=Mouser
-ParamDesignator17=U?A
+ParamDesignator17=U5A
 ParamVariation18=ParameterName=Supplier 2|VariantValue=Digi-Key
-ParamDesignator18=U?A
+ParamDesignator18=U5A
 ParamVariation19=ParameterName=Supplier Part Number 1|VariantValue=630-HFBR-2521Z
-ParamDesignator19=U?A
+ParamDesignator19=U5A
 ParamVariation20=ParameterName=Supply Voltage|VariantValue=5V
-ParamDesignator20=U?A
+ParamDesignator20=U5A
 ParamVariation21=ParameterName=Wavelength|VariantValue=660 nm
-ParamDesignator21=U?A
-Variation18=Designator=U?B|UniqueId=\2TSJUHLFS\VUQIQXAQ|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=False
+ParamDesignator21=U5A
+Variation5=Designator=U3C|UniqueId=\3TSJUHLFS\EEECUNKE|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
 ParamVariation22=ParameterName=Comment|VariantValue=Optical Reciever
-ParamDesignator22=U?B
+ParamDesignator22=U3C
 ParamVariation23=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator23=U?B
+ParamDesignator23=U3C
 ParamVariation24=ParameterName=Created|VariantValue=2019_04_09_Kreppel
-ParamDesignator24=U?B
+ParamDesignator24=U3C
 ParamVariation25=ParameterName=Data Rate|VariantValue=5 MBd
-ParamDesignator25=U?B
+ParamDesignator25=U3C
 ParamVariation26=ParameterName=Description|VariantValue=Fibre Optic Transmitters, Receivers, Transceivers V-LINK HORIZ 5MBd RC VR RoHS
-ParamDesignator26=U?B
+ParamDesignator26=U3C
 ParamVariation27=ParameterName=Footprint|VariantValue=HFBRx5XX
-ParamDesignator27=U?B
+ParamDesignator27=U3C
 ParamVariation28=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator28=U?B
+ParamDesignator28=U3C
 ParamVariation29=ParameterName=Iout max|VariantValue=25 mA
-ParamDesignator29=U?B
+ParamDesignator29=U3C
 ParamVariation30=ParameterName=Library Reference|VariantValue=HFBR-2528Z
-ParamDesignator30=U?B
+ParamDesignator30=U3C
 ParamVariation31=ParameterName=MF|VariantValue=Boadcom/Avago
-ParamDesignator31=U?B
+ParamDesignator31=U3C
 ParamVariation32=ParameterName=MPN|VariantValue=HFBR-2521Z
-ParamDesignator32=U?B
+ParamDesignator32=U3C
 ParamVariation33=ParameterName=PCB3D|VariantValue= 
-ParamDesignator33=U?B
+ParamDesignator33=U3C
 ParamVariation34=ParameterName=Pin Info|VariantValue= 
-ParamDesignator34=U?B
+ParamDesignator34=U3C
 ParamVariation35=ParameterName=Signal Integrity|VariantValue= 
-ParamDesignator35=U?B
+ParamDesignator35=U3C
 ParamVariation36=ParameterName=Simulation|VariantValue= 
-ParamDesignator36=U?B
+ParamDesignator36=U3C
 ParamVariation37=ParameterName=Suppier Part Number 2|VariantValue=516-2062-ND
-ParamDesignator37=U?B
+ParamDesignator37=U3C
 ParamVariation38=ParameterName=Supplier 1|VariantValue=Mouser
-ParamDesignator38=U?B
+ParamDesignator38=U3C
 ParamVariation39=ParameterName=Supplier 2|VariantValue=Digi-Key
-ParamDesignator39=U?B
+ParamDesignator39=U3C
 ParamVariation40=ParameterName=Supplier Part Number 1|VariantValue=630-HFBR-2521Z
-ParamDesignator40=U?B
+ParamDesignator40=U3C
 ParamVariation41=ParameterName=Supply Voltage|VariantValue=5V
-ParamDesignator41=U?B
+ParamDesignator41=U3C
 ParamVariation42=ParameterName=Wavelength|VariantValue=660 nm
-ParamDesignator42=U?B
-Variation19=Designator=U?C|UniqueId=\3TSJUHLFS\QGFINWFJ|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=False
+ParamDesignator42=U3C
+Variation6=Designator=U5C|UniqueId=\3TSJUHLFS\ZIOYFUYJ|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
 ParamVariation43=ParameterName=Comment|VariantValue=Optical Reciever
-ParamDesignator43=U?C
+ParamDesignator43=U5C
 ParamVariation44=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator44=U?C
+ParamDesignator44=U5C
 ParamVariation45=ParameterName=Created|VariantValue=2019_04_09_Kreppel
-ParamDesignator45=U?C
+ParamDesignator45=U5C
 ParamVariation46=ParameterName=Data Rate|VariantValue=5 MBd
-ParamDesignator46=U?C
+ParamDesignator46=U5C
 ParamVariation47=ParameterName=Description|VariantValue=Fibre Optic Transmitters, Receivers, Transceivers V-LINK HORIZ 5MBd RC VR RoHS
-ParamDesignator47=U?C
+ParamDesignator47=U5C
 ParamVariation48=ParameterName=Footprint|VariantValue=HFBRx5XX
-ParamDesignator48=U?C
+ParamDesignator48=U5C
 ParamVariation49=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator49=U?C
+ParamDesignator49=U5C
 ParamVariation50=ParameterName=Iout max|VariantValue=25 mA
-ParamDesignator50=U?C
+ParamDesignator50=U5C
 ParamVariation51=ParameterName=Library Reference|VariantValue=HFBR-2528Z
-ParamDesignator51=U?C
+ParamDesignator51=U5C
 ParamVariation52=ParameterName=MF|VariantValue=Boadcom/Avago
-ParamDesignator52=U?C
+ParamDesignator52=U5C
 ParamVariation53=ParameterName=MPN|VariantValue=HFBR-2521Z
-ParamDesignator53=U?C
+ParamDesignator53=U5C
 ParamVariation54=ParameterName=PCB3D|VariantValue= 
-ParamDesignator54=U?C
+ParamDesignator54=U5C
 ParamVariation55=ParameterName=Pin Info|VariantValue= 
-ParamDesignator55=U?C
+ParamDesignator55=U5C
 ParamVariation56=ParameterName=Signal Integrity|VariantValue= 
-ParamDesignator56=U?C
+ParamDesignator56=U5C
 ParamVariation57=ParameterName=Simulation|VariantValue= 
-ParamDesignator57=U?C
+ParamDesignator57=U5C
 ParamVariation58=ParameterName=Suppier Part Number 2|VariantValue=516-2062-ND
-ParamDesignator58=U?C
+ParamDesignator58=U5C
 ParamVariation59=ParameterName=Supplier 1|VariantValue=Mouser
-ParamDesignator59=U?C
+ParamDesignator59=U5C
 ParamVariation60=ParameterName=Supplier 2|VariantValue=Digi-Key
-ParamDesignator60=U?C
+ParamDesignator60=U5C
 ParamVariation61=ParameterName=Supplier Part Number 1|VariantValue=630-HFBR-2521Z
-ParamDesignator61=U?C
+ParamDesignator61=U5C
 ParamVariation62=ParameterName=Supply Voltage|VariantValue=5V
-ParamDesignator62=U?C
+ParamDesignator62=U5C
 ParamVariation63=ParameterName=Wavelength|VariantValue=660 nm
-ParamDesignator63=U?C
-Variation20=Designator=U?B|UniqueId=\2TSJUHLFS\QGFINWFJ|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=False
+ParamDesignator63=U5C
+Variation7=Designator=U3B|UniqueId=\2TSJUHLFS\EEECUNKE|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
 ParamVariation64=ParameterName=Comment|VariantValue=Optical Reciever
-ParamDesignator64=U?B
+ParamDesignator64=U3B
 ParamVariation65=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator65=U?B
+ParamDesignator65=U3B
 ParamVariation66=ParameterName=Created|VariantValue=2019_04_09_Kreppel
-ParamDesignator66=U?B
+ParamDesignator66=U3B
 ParamVariation67=ParameterName=Data Rate|VariantValue=5 MBd
-ParamDesignator67=U?B
+ParamDesignator67=U3B
 ParamVariation68=ParameterName=Description|VariantValue=Fibre Optic Transmitters, Receivers, Transceivers V-LINK HORIZ 5MBd RC VR RoHS
-ParamDesignator68=U?B
+ParamDesignator68=U3B
 ParamVariation69=ParameterName=Footprint|VariantValue=HFBRx5XX
-ParamDesignator69=U?B
+ParamDesignator69=U3B
 ParamVariation70=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator70=U?B
+ParamDesignator70=U3B
 ParamVariation71=ParameterName=Iout max|VariantValue=25 mA
-ParamDesignator71=U?B
+ParamDesignator71=U3B
 ParamVariation72=ParameterName=Library Reference|VariantValue=HFBR-2528Z
-ParamDesignator72=U?B
+ParamDesignator72=U3B
 ParamVariation73=ParameterName=MF|VariantValue=Boadcom/Avago
-ParamDesignator73=U?B
+ParamDesignator73=U3B
 ParamVariation74=ParameterName=MPN|VariantValue=HFBR-2521Z
-ParamDesignator74=U?B
+ParamDesignator74=U3B
 ParamVariation75=ParameterName=PCB3D|VariantValue= 
-ParamDesignator75=U?B
+ParamDesignator75=U3B
 ParamVariation76=ParameterName=Pin Info|VariantValue= 
-ParamDesignator76=U?B
+ParamDesignator76=U3B
 ParamVariation77=ParameterName=Signal Integrity|VariantValue= 
-ParamDesignator77=U?B
+ParamDesignator77=U3B
 ParamVariation78=ParameterName=Simulation|VariantValue= 
-ParamDesignator78=U?B
+ParamDesignator78=U3B
 ParamVariation79=ParameterName=Suppier Part Number 2|VariantValue=516-2062-ND
-ParamDesignator79=U?B
+ParamDesignator79=U3B
 ParamVariation80=ParameterName=Supplier 1|VariantValue=Mouser
-ParamDesignator80=U?B
+ParamDesignator80=U3B
 ParamVariation81=ParameterName=Supplier 2|VariantValue=Digi-Key
-ParamDesignator81=U?B
+ParamDesignator81=U3B
 ParamVariation82=ParameterName=Supplier Part Number 1|VariantValue=630-HFBR-2521Z
-ParamDesignator82=U?B
+ParamDesignator82=U3B
 ParamVariation83=ParameterName=Supply Voltage|VariantValue=5V
-ParamDesignator83=U?B
+ParamDesignator83=U3B
 ParamVariation84=ParameterName=Wavelength|VariantValue=660 nm
-ParamDesignator84=U?B
-Variation21=Designator=U?C|UniqueId=\3TSJUHLFS\VUQIQXAQ|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=False
+ParamDesignator84=U3B
+Variation8=Designator=U3A|UniqueId=\1TSJUHLFS\EEECUNKE|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
 ParamVariation85=ParameterName=Comment|VariantValue=Optical Reciever
-ParamDesignator85=U?C
+ParamDesignator85=U3A
 ParamVariation86=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator86=U?C
+ParamDesignator86=U3A
 ParamVariation87=ParameterName=Created|VariantValue=2019_04_09_Kreppel
-ParamDesignator87=U?C
+ParamDesignator87=U3A
 ParamVariation88=ParameterName=Data Rate|VariantValue=5 MBd
-ParamDesignator88=U?C
+ParamDesignator88=U3A
 ParamVariation89=ParameterName=Description|VariantValue=Fibre Optic Transmitters, Receivers, Transceivers V-LINK HORIZ 5MBd RC VR RoHS
-ParamDesignator89=U?C
+ParamDesignator89=U3A
 ParamVariation90=ParameterName=Footprint|VariantValue=HFBRx5XX
-ParamDesignator90=U?C
+ParamDesignator90=U3A
 ParamVariation91=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator91=U?C
+ParamDesignator91=U3A
 ParamVariation92=ParameterName=Iout max|VariantValue=25 mA
-ParamDesignator92=U?C
+ParamDesignator92=U3A
 ParamVariation93=ParameterName=Library Reference|VariantValue=HFBR-2528Z
-ParamDesignator93=U?C
+ParamDesignator93=U3A
 ParamVariation94=ParameterName=MF|VariantValue=Boadcom/Avago
-ParamDesignator94=U?C
+ParamDesignator94=U3A
 ParamVariation95=ParameterName=MPN|VariantValue=HFBR-2521Z
-ParamDesignator95=U?C
+ParamDesignator95=U3A
 ParamVariation96=ParameterName=PCB3D|VariantValue= 
-ParamDesignator96=U?C
+ParamDesignator96=U3A
 ParamVariation97=ParameterName=Pin Info|VariantValue= 
-ParamDesignator97=U?C
+ParamDesignator97=U3A
 ParamVariation98=ParameterName=Signal Integrity|VariantValue= 
-ParamDesignator98=U?C
+ParamDesignator98=U3A
 ParamVariation99=ParameterName=Simulation|VariantValue= 
-ParamDesignator99=U?C
+ParamDesignator99=U3A
 ParamVariation100=ParameterName=Suppier Part Number 2|VariantValue=516-2062-ND
-ParamDesignator100=U?C
+ParamDesignator100=U3A
 ParamVariation101=ParameterName=Supplier 1|VariantValue=Mouser
-ParamDesignator101=U?C
+ParamDesignator101=U3A
 ParamVariation102=ParameterName=Supplier 2|VariantValue=Digi-Key
-ParamDesignator102=U?C
+ParamDesignator102=U3A
 ParamVariation103=ParameterName=Supplier Part Number 1|VariantValue=630-HFBR-2521Z
-ParamDesignator103=U?C
+ParamDesignator103=U3A
 ParamVariation104=ParameterName=Supply Voltage|VariantValue=5V
-ParamDesignator104=U?C
+ParamDesignator104=U3A
 ParamVariation105=ParameterName=Wavelength|VariantValue=660 nm
-ParamDesignator105=U?C
-Variation22=Designator=U?A|UniqueId=\1TSJUHLFS\QGFINWFJ|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=False
+ParamDesignator105=U3A
+Variation9=Designator=U5B|UniqueId=\2TSJUHLFS\ZIOYFUYJ|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
 ParamVariation106=ParameterName=Comment|VariantValue=Optical Reciever
-ParamDesignator106=U?A
+ParamDesignator106=U5B
 ParamVariation107=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator107=U?A
+ParamDesignator107=U5B
 ParamVariation108=ParameterName=Created|VariantValue=2019_04_09_Kreppel
-ParamDesignator108=U?A
+ParamDesignator108=U5B
 ParamVariation109=ParameterName=Data Rate|VariantValue=5 MBd
-ParamDesignator109=U?A
+ParamDesignator109=U5B
 ParamVariation110=ParameterName=Description|VariantValue=Fibre Optic Transmitters, Receivers, Transceivers V-LINK HORIZ 5MBd RC VR RoHS
-ParamDesignator110=U?A
+ParamDesignator110=U5B
 ParamVariation111=ParameterName=Footprint|VariantValue=HFBRx5XX
-ParamDesignator111=U?A
+ParamDesignator111=U5B
 ParamVariation112=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator112=U?A
+ParamDesignator112=U5B
 ParamVariation113=ParameterName=Iout max|VariantValue=25 mA
-ParamDesignator113=U?A
+ParamDesignator113=U5B
 ParamVariation114=ParameterName=Library Reference|VariantValue=HFBR-2528Z
-ParamDesignator114=U?A
+ParamDesignator114=U5B
 ParamVariation115=ParameterName=MF|VariantValue=Boadcom/Avago
-ParamDesignator115=U?A
+ParamDesignator115=U5B
 ParamVariation116=ParameterName=MPN|VariantValue=HFBR-2521Z
-ParamDesignator116=U?A
+ParamDesignator116=U5B
 ParamVariation117=ParameterName=PCB3D|VariantValue= 
-ParamDesignator117=U?A
+ParamDesignator117=U5B
 ParamVariation118=ParameterName=Pin Info|VariantValue= 
-ParamDesignator118=U?A
+ParamDesignator118=U5B
 ParamVariation119=ParameterName=Signal Integrity|VariantValue= 
-ParamDesignator119=U?A
+ParamDesignator119=U5B
 ParamVariation120=ParameterName=Simulation|VariantValue= 
-ParamDesignator120=U?A
+ParamDesignator120=U5B
 ParamVariation121=ParameterName=Suppier Part Number 2|VariantValue=516-2062-ND
-ParamDesignator121=U?A
+ParamDesignator121=U5B
 ParamVariation122=ParameterName=Supplier 1|VariantValue=Mouser
-ParamDesignator122=U?A
+ParamDesignator122=U5B
 ParamVariation123=ParameterName=Supplier 2|VariantValue=Digi-Key
-ParamDesignator123=U?A
+ParamDesignator123=U5B
 ParamVariation124=ParameterName=Supplier Part Number 1|VariantValue=630-HFBR-2521Z
-ParamDesignator124=U?A
+ParamDesignator124=U5B
 ParamVariation125=ParameterName=Supply Voltage|VariantValue=5V
-ParamDesignator125=U?A
+ParamDesignator125=U5B
 ParamVariation126=ParameterName=Wavelength|VariantValue=660 nm
-ParamDesignator126=U?A
-ParamVariationCount=126
+ParamDesignator126=U5B
+Variation10=Designator=R20A|UniqueId=\1TSJUHLFS\YZMYDINK|Kind=0|AlternatePart==Value
+ParamVariation127=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603FR-073K3L
+ParamDesignator127=R20A
+ParamVariation128=ParameterName=MPN|VariantValue=RC0603FR-073K3L
+ParamDesignator128=R20A
+ParamVariation129=ParameterName=Value|VariantValue=3.3k
+ParamDesignator129=R20A
+ParamVariation130=ParameterName=Comment|VariantValue==Value
+ParamDesignator130=R20A
+Variation11=Designator=R20B|UniqueId=\2TSJUHLFS\YZMYDINK|Kind=0|AlternatePart==Value
+ParamVariation131=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603FR-073K3L
+ParamDesignator131=R20B
+ParamVariation132=ParameterName=MPN|VariantValue=RC0603FR-073K3L
+ParamDesignator132=R20B
+ParamVariation133=ParameterName=Value|VariantValue=3.3k
+ParamDesignator133=R20B
+ParamVariation134=ParameterName=Comment|VariantValue==Value
+ParamDesignator134=R20B
+Variation12=Designator=R27A|UniqueId=\1TSJUHLFS\WWNAGYFX|Kind=0|AlternatePart==Value
+ParamVariation135=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603FR-073K3L
+ParamDesignator135=R27A
+ParamVariation136=ParameterName=MPN|VariantValue=RC0603FR-073K3L
+ParamDesignator136=R27A
+ParamVariation137=ParameterName=Value|VariantValue=3.3k
+ParamDesignator137=R27A
+ParamVariation138=ParameterName=Comment|VariantValue==Value
+ParamDesignator138=R27A
+Variation13=Designator=R27C|UniqueId=\3TSJUHLFS\WWNAGYFX|Kind=0|AlternatePart==Value
+ParamVariation139=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603FR-073K3L
+ParamDesignator139=R27C
+ParamVariation140=ParameterName=MPN|VariantValue=RC0603FR-073K3L
+ParamDesignator140=R27C
+ParamVariation141=ParameterName=Value|VariantValue=3.3k
+ParamDesignator141=R27C
+ParamVariation142=ParameterName=Comment|VariantValue==Value
+ParamDesignator142=R27C
+Variation14=Designator=R20C|UniqueId=\3TSJUHLFS\YZMYDINK|Kind=0|AlternatePart==Value
+ParamVariation143=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603FR-073K3L
+ParamDesignator143=R20C
+ParamVariation144=ParameterName=MPN|VariantValue=RC0603FR-073K3L
+ParamDesignator144=R20C
+ParamVariation145=ParameterName=Value|VariantValue=3.3k
+ParamDesignator145=R20C
+ParamVariation146=ParameterName=Comment|VariantValue==Value
+ParamDesignator146=R20C
+Variation15=Designator=R27B|UniqueId=\2TSJUHLFS\WWNAGYFX|Kind=0|AlternatePart==Value
+ParamVariation147=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603FR-073K3L
+ParamDesignator147=R27B
+ParamVariation148=ParameterName=MPN|VariantValue=RC0603FR-073K3L
+ParamDesignator148=R27B
+ParamVariation149=ParameterName=Value|VariantValue=3.3k
+ParamDesignator149=R27B
+ParamVariation150=ParameterName=Comment|VariantValue==Value
+ParamDesignator150=R27B
+Variation16=Designator=C8A|UniqueId=\1TSJUHLFS\RAUHFOFW|Kind=0|AlternatePart==Value
+ParamVariation151=ParameterName=MF|VariantValue=Wuerth Elektronik
+ParamDesignator151=C8A
+ParamVariation152=ParameterName=MPN|VariantValue=885012207074
+ParamDesignator152=C8A
+ParamVariation153=ParameterName=Rated Voltage|VariantValue=25 V
+ParamDesignator153=C8A
+ParamVariation154=ParameterName=Supplier Part Number 1|VariantValue=710-885012207074
+ParamDesignator154=C8A
+ParamVariation155=ParameterName=Value|VariantValue=220nF
+ParamDesignator155=C8A
+ParamVariation156=ParameterName=Comment|VariantValue==Value
+ParamDesignator156=C8A
+Variation17=Designator=C8C|UniqueId=\3TSJUHLFS\RAUHFOFW|Kind=0|AlternatePart==Value
+ParamVariation157=ParameterName=MF|VariantValue=Wuerth Elektronik
+ParamDesignator157=C8C
+ParamVariation158=ParameterName=MPN|VariantValue=885012207074
+ParamDesignator158=C8C
+ParamVariation159=ParameterName=Rated Voltage|VariantValue=25 V
+ParamDesignator159=C8C
+ParamVariation160=ParameterName=Supplier Part Number 1|VariantValue=710-885012207074
+ParamDesignator160=C8C
+ParamVariation161=ParameterName=Value|VariantValue=220nF
+ParamDesignator161=C8C
+ParamVariation162=ParameterName=Comment|VariantValue==Value
+ParamDesignator162=C8C
+Variation18=Designator=C8B|UniqueId=\2TSJUHLFS\RAUHFOFW|Kind=0|AlternatePart==Value
+ParamVariation163=ParameterName=MF|VariantValue=Wuerth Elektronik
+ParamDesignator163=C8B
+ParamVariation164=ParameterName=MPN|VariantValue=885012207074
+ParamDesignator164=C8B
+ParamVariation165=ParameterName=Rated Voltage|VariantValue=25 V
+ParamDesignator165=C8B
+ParamVariation166=ParameterName=Supplier Part Number 1|VariantValue=710-885012207074
+ParamDesignator166=C8B
+ParamVariation167=ParameterName=Value|VariantValue=220nF
+ParamDesignator167=C8B
+ParamVariation168=ParameterName=Comment|VariantValue==Value
+ParamDesignator168=C8B
+Variation19=Designator=D3A|UniqueId=\1TSJUHLFS\WEWXBYSD|Kind=1|AlternatePart= 
+Variation20=Designator=R13A|UniqueId=\1TSJUHLFS\JIDHJVBH|Kind=1|AlternatePart= 
+Variation21=Designator=R24A|UniqueId=\1TSJUHLFS\DCTTDBLH|Kind=1|AlternatePart= 
+Variation22=Designator=R22A|UniqueId=\1TSJUHLFS\OBZZOKCU|Kind=1|AlternatePart= 
+Variation23=Designator=R11C|UniqueId=\3TSJUHLFS\GFDXJGNX|Kind=1|AlternatePart= 
+Variation24=Designator=U4A|UniqueId=\1TSJUHLFS\UBNIGWHG|Kind=1|AlternatePart= 
+Variation25=Designator=R24B|UniqueId=\2TSJUHLFS\DCTTDBLH|Kind=1|AlternatePart= 
+Variation26=Designator=R23B|UniqueId=\2TSJUHLFS\UYKYCWDB|Kind=1|AlternatePart= 
+Variation27=Designator=R13C|UniqueId=\3TSJUHLFS\JIDHJVBH|Kind=1|AlternatePart= 
+Variation28=Designator=R13B|UniqueId=\2TSJUHLFS\JIDHJVBH|Kind=1|AlternatePart= 
+Variation29=Designator=R23C|UniqueId=\3TSJUHLFS\UYKYCWDB|Kind=1|AlternatePart= 
+Variation30=Designator=R19A|UniqueId=\1TSJUHLFS\EVWPMAWD|Kind=1|AlternatePart= 
+Variation31=Designator=R23A|UniqueId=\1TSJUHLFS\UYKYCWDB|Kind=1|AlternatePart= 
+Variation32=Designator=R19C|UniqueId=\3TSJUHLFS\EVWPMAWD|Kind=1|AlternatePart= 
+Variation33=Designator=D3B|UniqueId=\2TSJUHLFS\WEWXBYSD|Kind=1|AlternatePart= 
+Variation34=Designator=R11B|UniqueId=\2TSJUHLFS\GFDXJGNX|Kind=1|AlternatePart= 
+Variation35=Designator=U4B|UniqueId=\2TSJUHLFS\UBNIGWHG|Kind=1|AlternatePart= 
+Variation36=Designator=R19B|UniqueId=\2TSJUHLFS\EVWPMAWD|Kind=1|AlternatePart= 
+Variation37=Designator=R22C|UniqueId=\3TSJUHLFS\OBZZOKCU|Kind=1|AlternatePart= 
+Variation38=Designator=R24C|UniqueId=\3TSJUHLFS\DCTTDBLH|Kind=1|AlternatePart= 
+Variation39=Designator=U4C|UniqueId=\3TSJUHLFS\UBNIGWHG|Kind=1|AlternatePart= 
+Variation40=Designator=D3C|UniqueId=\3TSJUHLFS\WEWXBYSD|Kind=1|AlternatePart= 
+Variation41=Designator=R11A|UniqueId=\1TSJUHLFS\GFDXJGNX|Kind=1|AlternatePart= 
+Variation42=Designator=R22B|UniqueId=\2TSJUHLFS\OBZZOKCU|Kind=1|AlternatePart= 
+ParamVariationCount=168
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Eurocard\BOM\BOM_Eurocard_2v01.xls
@@ -681,11 +650,11 @@ Value=3v01
 
 [Parameter2]
 Name=ProjectName
-Value=Digital_Optical_18Tx/14Tx_4Rx
+Value=Digital_Adapter_Optical_18Tx/14Tx_4Rx
 
 [Parameter3]
 Name=Date
-Value=04/2020
+Value=04/20
 
 [Parameter4]
 Name=Author
