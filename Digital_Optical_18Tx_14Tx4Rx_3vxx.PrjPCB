@@ -641,24 +641,28 @@ DocumentPath=Project Outputs for Eurocard\BOM\BOM_Eurocard_2v01.xls
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Design Rule Check - Digital_Optical_18Tx_14Tx4Rx_3vxx.html
+DItemRevisionGUID=
+
+[GeneratedDocument3]
 DocumentPath=Project Outputs for Eurocard\Pick Place\PickPlace_Eurocard_2v01.txt
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectRevision
-Value=3v01
+Name=Author
+Value=T. Kreppel
 
 [Parameter2]
-Name=ProjectName
-Value=Digital_Adapter_Optical_18Tx/14Tx_4Rx
-
-[Parameter3]
 Name=Date
 Value=04/20
 
+[Parameter3]
+Name=ProjectName
+Value=Digital_Adapter_Optical_18Tx/14Tx_4Rx
+
 [Parameter4]
-Name=Author
-Value=T. Kreppel
+Name=ProjectRevision
+Value=3v01
 
 [Configuration1]
 Name=Sources
