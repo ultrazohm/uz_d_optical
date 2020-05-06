@@ -521,20 +521,20 @@ DocumentPath=Project Outputs for Eurocard\Pick Place\PickPlace_Eurocard_2v01.txt
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Author
-Value=T. Kreppel
+Name=ProjectRevision
+Value=3v01
 
 [Parameter2]
-Name=Date
-Value=04/20
-
-[Parameter3]
 Name=ProjectName
 Value=Digital_Adapter_Optical_18Tx/14Tx_4Rx
 
+[Parameter3]
+Name=Date
+Value=04/20
+
 [Parameter4]
-Name=ProjectRevision
-Value=3v01
+Name=Author
+Value=T. Kreppel
 
 [Configuration1]
 Name=Sources
@@ -1361,11 +1361,11 @@ Type6=2
 Type7=0
 Type8=1
 Type9=1
-Type10=1
+Type10=0
 Type11=2
 Type12=0
 Type13=0
-Type14=1
+Type14=0
 Type15=1
 Type16=1
 Type17=1
