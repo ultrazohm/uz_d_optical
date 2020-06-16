@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Digital_Optical_18Tx_14Tx4Rx_3vxx.PcbDoc]
+   Generated File[Digital_Optical_18Tx_14Tx4Rx_3vxx.TXT]
+   Generated File[Digital_Optical_18Tx_14Tx4Rx_3vxx.LDP]
+   Generated File[Digital_Optical_18Tx_14Tx4Rx_3vxx.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 10:39:21 On 16.06.2020
