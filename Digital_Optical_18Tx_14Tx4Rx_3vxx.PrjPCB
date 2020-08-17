@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -241,11 +241,17 @@ UniqueID=AFF8D3B2-D619-4BC2-9C49-FEA21353CFF5
 Description=18Tx
 AllowFabrication=0
 ParameterCount=0
-VariationCount=4
+VariationCount=10
 Variation1=Designator=R14A|UniqueId=\1TSJUHLFS\UPRMEAUF|Kind=1|AlternatePart= 
 Variation2=Designator=R14B|UniqueId=\2TSJUHLFS\UPRMEAUF|Kind=1|AlternatePart= 
 Variation3=Designator=R26A|UniqueId=\1TSJUHLFS\RLWVHXKK|Kind=1|AlternatePart= 
 Variation4=Designator=R26B|UniqueId=\2TSJUHLFS\RLWVHXKK|Kind=1|AlternatePart= 
+Variation5=Designator=P1|UniqueId=\JCLZDPBJ|Kind=1|AlternatePart= 
+Variation6=Designator=P2|UniqueId=\BLGFYTBF\GLBWZHVP|Kind=1|AlternatePart= 
+Variation7=Designator=R16|UniqueId=\BLGFYTBF\HQGLAWYH|Kind=1|AlternatePart= 
+Variation8=Designator=X2|UniqueId=\KVJEQOFT\OMUVYHYC|Kind=1|AlternatePart= 
+Variation9=Designator=X4|UniqueId=\NRWJYWRK|Kind=1|AlternatePart= 
+Variation10=Designator=X3|UniqueId=\MQAXBLOX|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant3]
@@ -253,7 +259,7 @@ UniqueID=267A4DA3-A555-4E0E-B038-0CD9A042998F
 Description=14Tx 4Rx
 AllowFabrication=0
 ParameterCount=0
-VariationCount=28
+VariationCount=32
 Variation1=Designator=D4A|UniqueId=\1TSJUHLFS\EABVVGHM|Kind=1|AlternatePart= 
 Variation2=Designator=D4B|UniqueId=\2TSJUHLFS\EABVVGHM|Kind=1|AlternatePart= 
 Variation3=Designator=U5A|UniqueId=\1TSJUHLFS\ZIOYFUYJ|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
@@ -506,6 +512,10 @@ Variation25=Designator=U4B|UniqueId=\2TSJUHLFS\UBNIGWHG|Kind=1|AlternatePart=
 Variation26=Designator=R19B|UniqueId=\2TSJUHLFS\EVWPMAWD|Kind=1|AlternatePart= 
 Variation27=Designator=R11A|UniqueId=\1TSJUHLFS\GFDXJGNX|Kind=1|AlternatePart= 
 Variation28=Designator=R22B|UniqueId=\2TSJUHLFS\OBZZOKCU|Kind=1|AlternatePart= 
+Variation29=Designator=P1|UniqueId=\JCLZDPBJ|Kind=1|AlternatePart= 
+Variation30=Designator=P2|UniqueId=\BLGFYTBF\GLBWZHVP|Kind=1|AlternatePart= 
+Variation31=Designator=R16|UniqueId=\BLGFYTBF\HQGLAWYH|Kind=1|AlternatePart= 
+Variation32=Designator=X2|UniqueId=\KVJEQOFT\OMUVYHYC|Kind=1|AlternatePart= 
 ParamVariationCount=112
 
 [GeneratedDocument1]
@@ -513,66 +523,62 @@ DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\BOM\BOM_Digit
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Design Rule Check - Digital_Optical_18Tx_14Tx4Rx_3vxx.html
-DItemRevisionGUID=
-
-[GeneratedDocument3]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\NC Drill\Digital_Optical_18Tx_14Tx4Rx_3vxx.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\NC Drill\Digital_Optical_18Tx_14Tx4Rx_3vxx.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.REP
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\NC Drill\Digital_Optical_18Tx_14Tx4Rx_3vxx.TXT
 DItemRevisionGUID=
 
@@ -603,12 +609,12 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx
 
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=OneNote for Windows 10
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -710,12 +716,42 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=SIMetrixNetlist
+OutputName21=SIMetrix
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
+OutputType22=SIMPLISNetlist
+OutputName22=SIMPLIS
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=XSpiceNetlist
+OutputName23=XSpice Netlist
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Samsung C48x Series (USB001)
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -792,7 +828,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=OneNote for Windows 10
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -814,7 +850,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=OneNote for Windows 10
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -886,7 +922,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=OneNote for Windows 10
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -923,7 +959,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=OneNote for Windows 10
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -1103,7 +1139,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=OneNote for Windows 10
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Server's components states check
@@ -1147,7 +1183,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=OneNote for Windows 10
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -1238,7 +1274,7 @@ OutputDefault17=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=OneNote for Windows 10
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
