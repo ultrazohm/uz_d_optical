@@ -1,4 +1,4 @@
-﻿[Design]
+[Design]
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
@@ -259,7 +259,7 @@ UniqueID=267A4DA3-A555-4E0E-B038-0CD9A042998F
 Description=14Tx 4Rx
 AllowFabrication=0
 ParameterCount=0
-VariationCount=32
+VariationCount=36
 Variation1=Designator=D4A|UniqueId=\1TSJUHLFS\EABVVGHM|Kind=1|AlternatePart= 
 Variation2=Designator=D4B|UniqueId=\2TSJUHLFS\EABVVGHM|Kind=1|AlternatePart= 
 Variation3=Designator=U5A|UniqueId=\1TSJUHLFS\ZIOYFUYJ|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
@@ -516,73 +516,169 @@ Variation29=Designator=P1|UniqueId=\JCLZDPBJ|Kind=1|AlternatePart=
 Variation30=Designator=P2|UniqueId=\BLGFYTBF\GLBWZHVP|Kind=1|AlternatePart= 
 Variation31=Designator=R16|UniqueId=\BLGFYTBF\HQGLAWYH|Kind=1|AlternatePart= 
 Variation32=Designator=X2|UniqueId=\KVJEQOFT\OMUVYHYC|Kind=1|AlternatePart= 
-ParamVariationCount=112
+Variation33=Designator=R21A|UniqueId=\1TSJUHLFS\SGSULMNO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=UZOhm_Optical.SchLib|AltLibLink_SymbolReference=R_config|AltLibLink_DesignItemID=R_config_down|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=0603_Config_down|AltLibLink_IsSameFootprint=False
+ParamVariation113=ParameterName=Comment|VariantValue==Value
+ParamDesignator113=R21A
+ParamVariation114=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator114=R21A
+ParamVariation115=ParameterName=Created|VariantValue=2018_09_04_AGeiger
+ParamDesignator115=R21A
+ParamVariation116=ParameterName=Description|VariantValue=Solder resistor/jumper between pads 1 and 2 for standard function. Solder resistor between pads 2 and 3 for alternative function
+ParamDesignator116=R21A
+ParamVariation117=ParameterName=Footprint|VariantValue=0603_Config_down
+ParamDesignator117=R21A
+ParamVariation118=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator118=R21A
+ParamVariation119=ParameterName=Library Reference|VariantValue=R_config_down
+ParamDesignator119=R21A
+ParamVariation120=ParameterName=Package|VariantValue=0603
+ParamDesignator120=R21A
+ParamVariation121=ParameterName=PCB3D|VariantValue= 
+ParamDesignator121=R21A
+ParamVariation122=ParameterName=Pin Info|VariantValue= 
+ParamDesignator122=R21A
+ParamVariation123=ParameterName=Simulation|VariantValue= 
+ParamDesignator123=R21A
+ParamVariation124=ParameterName=Value|VariantValue=0R
+ParamDesignator124=R21A
+Variation34=Designator=R21B|UniqueId=\2TSJUHLFS\SGSULMNO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=UZOhm_Optical.SchLib|AltLibLink_SymbolReference=R_config|AltLibLink_DesignItemID=R_config_down|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=0603_Config_down|AltLibLink_IsSameFootprint=False
+ParamVariation125=ParameterName=Comment|VariantValue==Value
+ParamDesignator125=R21B
+ParamVariation126=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator126=R21B
+ParamVariation127=ParameterName=Created|VariantValue=2018_09_04_AGeiger
+ParamDesignator127=R21B
+ParamVariation128=ParameterName=Description|VariantValue=Solder resistor/jumper between pads 1 and 2 for standard function. Solder resistor between pads 2 and 3 for alternative function
+ParamDesignator128=R21B
+ParamVariation129=ParameterName=Footprint|VariantValue=0603_Config_down
+ParamDesignator129=R21B
+ParamVariation130=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator130=R21B
+ParamVariation131=ParameterName=Library Reference|VariantValue=R_config_down
+ParamDesignator131=R21B
+ParamVariation132=ParameterName=Package|VariantValue=0603
+ParamDesignator132=R21B
+ParamVariation133=ParameterName=PCB3D|VariantValue= 
+ParamDesignator133=R21B
+ParamVariation134=ParameterName=Pin Info|VariantValue= 
+ParamDesignator134=R21B
+ParamVariation135=ParameterName=Simulation|VariantValue= 
+ParamDesignator135=R21B
+ParamVariation136=ParameterName=Value|VariantValue=0R
+ParamDesignator136=R21B
+Variation35=Designator=R25B|UniqueId=\2TSJUHLFS\RDLQNWZK|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=UZOhm_Optical.SchLib|AltLibLink_SymbolReference=R_config|AltLibLink_DesignItemID=R_config_down|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=0603_Config_down|AltLibLink_IsSameFootprint=False
+ParamVariation137=ParameterName=Comment|VariantValue==Value
+ParamDesignator137=R25B
+ParamVariation138=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator138=R25B
+ParamVariation139=ParameterName=Created|VariantValue=2018_09_04_AGeiger
+ParamDesignator139=R25B
+ParamVariation140=ParameterName=Description|VariantValue=Solder resistor/jumper between pads 1 and 2 for standard function. Solder resistor between pads 2 and 3 for alternative function
+ParamDesignator140=R25B
+ParamVariation141=ParameterName=Footprint|VariantValue=0603_Config_down
+ParamDesignator141=R25B
+ParamVariation142=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator142=R25B
+ParamVariation143=ParameterName=Library Reference|VariantValue=R_config_down
+ParamDesignator143=R25B
+ParamVariation144=ParameterName=Package|VariantValue=0603
+ParamDesignator144=R25B
+ParamVariation145=ParameterName=PCB3D|VariantValue= 
+ParamDesignator145=R25B
+ParamVariation146=ParameterName=Pin Info|VariantValue= 
+ParamDesignator146=R25B
+ParamVariation147=ParameterName=Simulation|VariantValue= 
+ParamDesignator147=R25B
+ParamVariation148=ParameterName=Value|VariantValue=0R
+ParamDesignator148=R25B
+Variation36=Designator=R25A|UniqueId=\1TSJUHLFS\RDLQNWZK|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=UZOhm_Optical.SchLib|AltLibLink_SymbolReference=R_config|AltLibLink_DesignItemID=R_config_down|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=0603_Config_down|AltLibLink_IsSameFootprint=False
+ParamVariation149=ParameterName=Comment|VariantValue==Value
+ParamDesignator149=R25A
+ParamVariation150=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator150=R25A
+ParamVariation151=ParameterName=Created|VariantValue=2018_09_04_AGeiger
+ParamDesignator151=R25A
+ParamVariation152=ParameterName=Description|VariantValue=Solder resistor/jumper between pads 1 and 2 for standard function. Solder resistor between pads 2 and 3 for alternative function
+ParamDesignator152=R25A
+ParamVariation153=ParameterName=Footprint|VariantValue=0603_Config_down
+ParamDesignator153=R25A
+ParamVariation154=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator154=R25A
+ParamVariation155=ParameterName=Library Reference|VariantValue=R_config_down
+ParamDesignator155=R25A
+ParamVariation156=ParameterName=Package|VariantValue=0603
+ParamDesignator156=R25A
+ParamVariation157=ParameterName=PCB3D|VariantValue= 
+ParamDesignator157=R25A
+ParamVariation158=ParameterName=Pin Info|VariantValue= 
+ParamDesignator158=R25A
+ParamVariation159=ParameterName=Simulation|VariantValue= 
+ParamDesignator159=R25A
+ParamVariation160=ParameterName=Value|VariantValue=0R
+ParamDesignator160=R25A
+ParamVariationCount=160
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\BOM\BOM_Digital_Optical_18Tx_14Tx4Rx_3vxx_3v01.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Design Rule Check - Digital_Optical_18Tx_14Tx4Rx_3vxx.html
-DItemRevisionGUID=
-
-[GeneratedDocument3]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\NC Drill\Digital_Optical_18Tx_14Tx4Rx_3vxx.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\NC Drill\Digital_Optical_18Tx_14Tx4Rx_3vxx.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.REP
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\NC Drill\Digital_Optical_18Tx_14Tx4Rx_3vxx.TXT
 DItemRevisionGUID=
 
@@ -720,42 +816,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=SIMetrixNetlist
-OutputName21=SIMetrix
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-OutputType22=SIMPLISNetlist
-OutputName22=SIMPLIS
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=XSpiceNetlist
-OutputName23=XSpice Netlist
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -822,12 +888,6 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=PDF3D MBA
-OutputName11=PDF3D MBA
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1178,11 +1238,6 @@ OutputName6=Footprint Comparison Report
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-OutputType7=BOM_Violations
-OutputName7=BOM Checks Report
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
 
 [OutputGroup9]
 Name=Export Outputs
@@ -1234,16 +1289,6 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=MBAExportPARASOLID
-OutputName10=Export PARASOLID
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=MBAExportSTEP
-OutputName11=Export STEP
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1373,9 +1418,6 @@ Type113=1
 Type114=1
 Type115=1
 Type116=1
-Type117=1
-Type118=1
-Type119=1
 
 [Difference Levels]
 Type1=1
@@ -1443,9 +1485,6 @@ Type62=1
 Type63=1
 Type64=1
 Type65=1
-Type66=1
-Type67=1
-Type68=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1593,7 +1632,6 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=3
 SortLocation=0
-ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
@@ -1614,7 +1652,6 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
-UpdateToLatestRevision=1
 PartTypes=0
 FullReplace=1
 UpdateDesignatorLock=1
@@ -1633,7 +1670,6 @@ UpdateCurrentModels=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
-UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]
