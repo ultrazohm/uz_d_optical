@@ -1,6 +1,0 @@
-DRC Rules Export File for PCB: C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Digital_Optical_18Tx_14Tx4Rx_3vxx.PcbDoc
-RuleKind=Width|RuleName=Width_PWR|Scope=Board|Minimum=5.00
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.00
-RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.00
-RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
