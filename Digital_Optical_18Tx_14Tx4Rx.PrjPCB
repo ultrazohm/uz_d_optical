@@ -556,66 +556,6 @@ ParamVariationCount=112
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\BOM\BOM_Digital_Optical_18Tx_14Tx4Rx_3vxx_3v01.xlsx
 DItemRevisionGUID=
 
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\NC Drill\Digital_Optical_18Tx_14Tx4Rx_3vxx.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\NC Drill\Digital_Optical_18Tx_14Tx4Rx_3vxx.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.REP
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\Gerber\Digital_Optical_18Tx_14Tx4Rx_3vxx.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\NC Drill\Digital_Optical_18Tx_14Tx4Rx_3vxx.TXT
-DItemRevisionGUID=
-
 [SearchPath1]
 Path=..\*.*
 IncludeSubFolders=1
@@ -754,42 +694,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=SIMetrixNetlist
-OutputName21=SIMetrix
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-OutputType22=SIMPLISNetlist
-OutputName22=SIMPLIS
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=XSpiceNetlist
-OutputName23=XSpice Netlist
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=PDFCreator
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
