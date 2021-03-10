@@ -23,12 +23,14 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=1
 PowerPortNamesTakePriority=0
+AutoSheetNumbering=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+IsProjectConflictPreventionWarningsEnabled=1
+OutputPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -285,7 +287,7 @@ UniqueID=267A4DA3-A555-4E0E-B038-0CD9A042998F
 Description=14Tx 4Rx
 AllowFabrication=0
 ParameterCount=0
-VariationCount=22
+VariationCount=24
 Variation1=Designator=R20A|UniqueId=\1TSJUHLFS\YZMYDINK|Kind=0|AlternatePart==Value
 ParamVariation1=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603FR-072KL
 ParamDesignator1=R20A
@@ -312,8 +314,8 @@ Variation7=Designator=P1|UniqueId=\JCLZDPBJ|Kind=1|AlternatePart=
 Variation8=Designator=P2|UniqueId=\BLGFYTBF\GLBWZHVP|Kind=1|AlternatePart= 
 Variation9=Designator=R16|UniqueId=\BLGFYTBF\HQGLAWYH|Kind=1|AlternatePart= 
 Variation10=Designator=X2|UniqueId=\KVJEQOFT\OMUVYHYC|Kind=1|AlternatePart= 
-Variation11=Designator=U3A|UniqueId=\1TSJUHLFS\PFEKMBUX|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
-ParamVariation9=ParameterName=Comment|VariantValue=Optical Reciever
+Variation11=Designator=U3A|UniqueId=\1TSJUHLFS\PFEKMBUX|Kind=2|AlternatePart=Optical Receiver|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
+ParamVariation9=ParameterName=Comment|VariantValue=Optical Receiver
 ParamDesignator9=U3A
 ParamVariation10=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator10=U3A
@@ -355,135 +357,147 @@ ParamVariation28=ParameterName=Supply Voltage|VariantValue=5V
 ParamDesignator28=U3A
 ParamVariation29=ParameterName=Wavelength|VariantValue=660 nm
 ParamDesignator29=U3A
-Variation12=Designator=U3B|UniqueId=\2TSJUHLFS\PFEKMBUX|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
-ParamVariation30=ParameterName=Comment|VariantValue=Optical Reciever
-ParamDesignator30=U3B
-ParamVariation31=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator31=U3B
-ParamVariation32=ParameterName=Created|VariantValue=2019_04_09_Kreppel
+ParamVariation30=ParameterName=Foreward Current|VariantValue=<no parameter>
+ParamDesignator30=U3A
+ParamVariation31=ParameterName=Supplier Part Number 2|VariantValue=<no parameter>
+ParamDesignator31=U3A
+Variation12=Designator=U3B|UniqueId=\2TSJUHLFS\PFEKMBUX|Kind=2|AlternatePart=Optical Receiver|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
+ParamVariation32=ParameterName=Comment|VariantValue=Optical Receiver
 ParamDesignator32=U3B
-ParamVariation33=ParameterName=Data Rate|VariantValue=5 MBd
+ParamVariation33=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator33=U3B
-ParamVariation34=ParameterName=Description|VariantValue=Fibre Optic Transmitters, Receivers, Transceivers V-LINK HORIZ 5MBd RC VR RoHS
+ParamVariation34=ParameterName=Created|VariantValue=2019_04_09_Kreppel
 ParamDesignator34=U3B
-ParamVariation35=ParameterName=Footprint|VariantValue=HFBRx5XX
+ParamVariation35=ParameterName=Data Rate|VariantValue=5 MBd
 ParamDesignator35=U3B
-ParamVariation36=ParameterName=Ibis Model|VariantValue= 
+ParamVariation36=ParameterName=Description|VariantValue=Fibre Optic Transmitters, Receivers, Transceivers V-LINK HORIZ 5MBd RC VR RoHS
 ParamDesignator36=U3B
-ParamVariation37=ParameterName=Iout max|VariantValue=25 mA
+ParamVariation37=ParameterName=Footprint|VariantValue=HFBRx5XX
 ParamDesignator37=U3B
-ParamVariation38=ParameterName=Library Reference|VariantValue=HFBR-2528Z
+ParamVariation38=ParameterName=Ibis Model|VariantValue= 
 ParamDesignator38=U3B
-ParamVariation39=ParameterName=MF|VariantValue=Boadcom/Avago
+ParamVariation39=ParameterName=Iout max|VariantValue=25 mA
 ParamDesignator39=U3B
-ParamVariation40=ParameterName=MPN|VariantValue=HFBR-2521Z
+ParamVariation40=ParameterName=Library Reference|VariantValue=HFBR-2528Z
 ParamDesignator40=U3B
-ParamVariation41=ParameterName=PCB3D|VariantValue= 
+ParamVariation41=ParameterName=MF|VariantValue=Boadcom/Avago
 ParamDesignator41=U3B
-ParamVariation42=ParameterName=Pin Info|VariantValue= 
+ParamVariation42=ParameterName=MPN|VariantValue=HFBR-2521Z
 ParamDesignator42=U3B
-ParamVariation43=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation43=ParameterName=PCB3D|VariantValue= 
 ParamDesignator43=U3B
-ParamVariation44=ParameterName=Simulation|VariantValue= 
+ParamVariation44=ParameterName=Pin Info|VariantValue= 
 ParamDesignator44=U3B
-ParamVariation45=ParameterName=Suppier Part Number 2|VariantValue=516-2062-ND
+ParamVariation45=ParameterName=Signal Integrity|VariantValue= 
 ParamDesignator45=U3B
-ParamVariation46=ParameterName=Supplier 1|VariantValue=Mouser
+ParamVariation46=ParameterName=Simulation|VariantValue= 
 ParamDesignator46=U3B
-ParamVariation47=ParameterName=Supplier 2|VariantValue=Digi-Key
+ParamVariation47=ParameterName=Suppier Part Number 2|VariantValue=516-2062-ND
 ParamDesignator47=U3B
-ParamVariation48=ParameterName=Supplier Part Number 1|VariantValue=630-HFBR-2521Z
+ParamVariation48=ParameterName=Supplier 1|VariantValue=Mouser
 ParamDesignator48=U3B
-ParamVariation49=ParameterName=Supply Voltage|VariantValue=5V
+ParamVariation49=ParameterName=Supplier 2|VariantValue=Digi-Key
 ParamDesignator49=U3B
-ParamVariation50=ParameterName=Wavelength|VariantValue=660 nm
+ParamVariation50=ParameterName=Supplier Part Number 1|VariantValue=630-HFBR-2521Z
 ParamDesignator50=U3B
-Variation13=Designator=U3C|UniqueId=\3TSJUHLFS\PFEKMBUX|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
-ParamVariation51=ParameterName=Comment|VariantValue=Optical Reciever
-ParamDesignator51=U3C
-ParamVariation52=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator52=U3C
-ParamVariation53=ParameterName=Created|VariantValue=2019_04_09_Kreppel
+ParamVariation51=ParameterName=Supply Voltage|VariantValue=5V
+ParamDesignator51=U3B
+ParamVariation52=ParameterName=Wavelength|VariantValue=660 nm
+ParamDesignator52=U3B
+Variation13=Designator=U3C|UniqueId=\3TSJUHLFS\PFEKMBUX|Kind=2|AlternatePart=Optical Receiver|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
+ParamVariation53=ParameterName=Comment|VariantValue=Optical Receiver
 ParamDesignator53=U3C
-ParamVariation54=ParameterName=Data Rate|VariantValue=5 MBd
+ParamVariation54=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator54=U3C
-ParamVariation55=ParameterName=Description|VariantValue=Fibre Optic Transmitters, Receivers, Transceivers V-LINK HORIZ 5MBd RC VR RoHS
+ParamVariation55=ParameterName=Created|VariantValue=2019_04_09_Kreppel
 ParamDesignator55=U3C
-ParamVariation56=ParameterName=Footprint|VariantValue=HFBRx5XX
+ParamVariation56=ParameterName=Data Rate|VariantValue=5 MBd
 ParamDesignator56=U3C
-ParamVariation57=ParameterName=Ibis Model|VariantValue= 
+ParamVariation57=ParameterName=Description|VariantValue=Fibre Optic Transmitters, Receivers, Transceivers V-LINK HORIZ 5MBd RC VR RoHS
 ParamDesignator57=U3C
-ParamVariation58=ParameterName=Iout max|VariantValue=25 mA
+ParamVariation58=ParameterName=Footprint|VariantValue=HFBRx5XX
 ParamDesignator58=U3C
-ParamVariation59=ParameterName=Library Reference|VariantValue=HFBR-2528Z
+ParamVariation59=ParameterName=Ibis Model|VariantValue= 
 ParamDesignator59=U3C
-ParamVariation60=ParameterName=MF|VariantValue=Boadcom/Avago
+ParamVariation60=ParameterName=Iout max|VariantValue=25 mA
 ParamDesignator60=U3C
-ParamVariation61=ParameterName=MPN|VariantValue=HFBR-2521Z
+ParamVariation61=ParameterName=Library Reference|VariantValue=HFBR-2528Z
 ParamDesignator61=U3C
-ParamVariation62=ParameterName=PCB3D|VariantValue= 
+ParamVariation62=ParameterName=MF|VariantValue=Boadcom/Avago
 ParamDesignator62=U3C
-ParamVariation63=ParameterName=Pin Info|VariantValue= 
+ParamVariation63=ParameterName=MPN|VariantValue=HFBR-2521Z
 ParamDesignator63=U3C
-ParamVariation64=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation64=ParameterName=PCB3D|VariantValue= 
 ParamDesignator64=U3C
-ParamVariation65=ParameterName=Simulation|VariantValue= 
+ParamVariation65=ParameterName=Pin Info|VariantValue= 
 ParamDesignator65=U3C
-ParamVariation66=ParameterName=Suppier Part Number 2|VariantValue=516-2062-ND
+ParamVariation66=ParameterName=Signal Integrity|VariantValue= 
 ParamDesignator66=U3C
-ParamVariation67=ParameterName=Supplier 1|VariantValue=Mouser
+ParamVariation67=ParameterName=Simulation|VariantValue= 
 ParamDesignator67=U3C
-ParamVariation68=ParameterName=Supplier 2|VariantValue=Digi-Key
+ParamVariation68=ParameterName=Suppier Part Number 2|VariantValue=516-2062-ND
 ParamDesignator68=U3C
-ParamVariation69=ParameterName=Supplier Part Number 1|VariantValue=630-HFBR-2521Z
+ParamVariation69=ParameterName=Supplier 1|VariantValue=Mouser
 ParamDesignator69=U3C
-ParamVariation70=ParameterName=Supply Voltage|VariantValue=5V
+ParamVariation70=ParameterName=Supplier 2|VariantValue=Digi-Key
 ParamDesignator70=U3C
-ParamVariation71=ParameterName=Wavelength|VariantValue=660 nm
+ParamVariation71=ParameterName=Supplier Part Number 1|VariantValue=630-HFBR-2521Z
 ParamDesignator71=U3C
-Variation14=Designator=U3D|UniqueId=\4TSJUHLFS\PFEKMBUX|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
-ParamVariation72=ParameterName=Comment|VariantValue=Optical Reciever
-ParamDesignator72=U3D
-ParamVariation73=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator73=U3D
-ParamVariation74=ParameterName=Created|VariantValue=2019_04_09_Kreppel
-ParamDesignator74=U3D
-ParamVariation75=ParameterName=Data Rate|VariantValue=5 MBd
-ParamDesignator75=U3D
-ParamVariation76=ParameterName=Description|VariantValue=Fibre Optic Transmitters, Receivers, Transceivers V-LINK HORIZ 5MBd RC VR RoHS
+ParamVariation72=ParameterName=Supply Voltage|VariantValue=5V
+ParamDesignator72=U3C
+ParamVariation73=ParameterName=Wavelength|VariantValue=660 nm
+ParamDesignator73=U3C
+ParamVariation74=ParameterName=Foreward Current|VariantValue=<no parameter>
+ParamDesignator74=U3C
+ParamVariation75=ParameterName=Supplier Part Number 2|VariantValue=<no parameter>
+ParamDesignator75=U3C
+Variation14=Designator=U3D|UniqueId=\4TSJUHLFS\PFEKMBUX|Kind=2|AlternatePart=Optical Receiver|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
+ParamVariation76=ParameterName=Comment|VariantValue=Optical Receiver
 ParamDesignator76=U3D
-ParamVariation77=ParameterName=Footprint|VariantValue=HFBRx5XX
+ParamVariation77=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator77=U3D
-ParamVariation78=ParameterName=Ibis Model|VariantValue= 
+ParamVariation78=ParameterName=Created|VariantValue=2019_04_09_Kreppel
 ParamDesignator78=U3D
-ParamVariation79=ParameterName=Iout max|VariantValue=25 mA
+ParamVariation79=ParameterName=Data Rate|VariantValue=5 MBd
 ParamDesignator79=U3D
-ParamVariation80=ParameterName=Library Reference|VariantValue=HFBR-2528Z
+ParamVariation80=ParameterName=Description|VariantValue=Fibre Optic Transmitters, Receivers, Transceivers V-LINK HORIZ 5MBd RC VR RoHS
 ParamDesignator80=U3D
-ParamVariation81=ParameterName=MF|VariantValue=Boadcom/Avago
+ParamVariation81=ParameterName=Footprint|VariantValue=HFBRx5XX
 ParamDesignator81=U3D
-ParamVariation82=ParameterName=MPN|VariantValue=HFBR-2521Z
+ParamVariation82=ParameterName=Ibis Model|VariantValue= 
 ParamDesignator82=U3D
-ParamVariation83=ParameterName=PCB3D|VariantValue= 
+ParamVariation83=ParameterName=Iout max|VariantValue=25 mA
 ParamDesignator83=U3D
-ParamVariation84=ParameterName=Pin Info|VariantValue= 
+ParamVariation84=ParameterName=Library Reference|VariantValue=HFBR-2528Z
 ParamDesignator84=U3D
-ParamVariation85=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation85=ParameterName=MF|VariantValue=Boadcom/Avago
 ParamDesignator85=U3D
-ParamVariation86=ParameterName=Simulation|VariantValue= 
+ParamVariation86=ParameterName=MPN|VariantValue=HFBR-2521Z
 ParamDesignator86=U3D
-ParamVariation87=ParameterName=Suppier Part Number 2|VariantValue=516-2062-ND
+ParamVariation87=ParameterName=PCB3D|VariantValue= 
 ParamDesignator87=U3D
-ParamVariation88=ParameterName=Supplier 1|VariantValue=Mouser
+ParamVariation88=ParameterName=Pin Info|VariantValue= 
 ParamDesignator88=U3D
-ParamVariation89=ParameterName=Supplier 2|VariantValue=Digi-Key
+ParamVariation89=ParameterName=Signal Integrity|VariantValue= 
 ParamDesignator89=U3D
-ParamVariation90=ParameterName=Supplier Part Number 1|VariantValue=630-HFBR-2521Z
+ParamVariation90=ParameterName=Simulation|VariantValue= 
 ParamDesignator90=U3D
-ParamVariation91=ParameterName=Supply Voltage|VariantValue=5V
+ParamVariation91=ParameterName=Suppier Part Number 2|VariantValue=516-2062-ND
 ParamDesignator91=U3D
-ParamVariation92=ParameterName=Wavelength|VariantValue=660 nm
+ParamVariation92=ParameterName=Supplier 1|VariantValue=Mouser
 ParamDesignator92=U3D
+ParamVariation93=ParameterName=Supplier 2|VariantValue=Digi-Key
+ParamDesignator93=U3D
+ParamVariation94=ParameterName=Supplier Part Number 1|VariantValue=630-HFBR-2521Z
+ParamDesignator94=U3D
+ParamVariation95=ParameterName=Supply Voltage|VariantValue=5V
+ParamDesignator95=U3D
+ParamVariation96=ParameterName=Wavelength|VariantValue=660 nm
+ParamDesignator96=U3D
+ParamVariation97=ParameterName=Foreward Current|VariantValue=<no parameter>
+ParamDesignator97=U3D
+ParamVariation98=ParameterName=Supplier Part Number 2|VariantValue=<no parameter>
+ParamDesignator98=U3D
 Variation15=Designator=R13C|UniqueId=\3TSJUHLFS\JIDHJVBH|Kind=1|AlternatePart= 
 Variation16=Designator=R13D|UniqueId=\4TSJUHLFS\JIDHJVBH|Kind=1|AlternatePart= 
 Variation17=Designator=R19D|UniqueId=\4TSJUHLFS\EVWPMAWD|Kind=1|AlternatePart= 
@@ -492,10 +506,72 @@ Variation19=Designator=R3A|UniqueId=\1TSJUHLFS\VMXOSMOJ|Kind=1|AlternatePart=
 Variation20=Designator=R3B|UniqueId=\2TSJUHLFS\VMXOSMOJ|Kind=1|AlternatePart= 
 Variation21=Designator=R3C|UniqueId=\3TSJUHLFS\VMXOSMOJ|Kind=1|AlternatePart= 
 Variation22=Designator=R3D|UniqueId=\4TSJUHLFS\VMXOSMOJ|Kind=1|AlternatePart= 
-ParamVariationCount=92
+Variation23=Designator=X3|UniqueId=\MQAXBLOX|Kind=1|AlternatePart= 
+Variation24=Designator=X4|UniqueId=\NRWJYWRK|Kind=1|AlternatePart= 
+ParamVariationCount=98
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\BOM\BOM_Digital_Optical_18Tx_14Tx4Rx_3vxx_3v01.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\NC Drill\Digital_Optical_18Tx_14Tx4Rx.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Gerber\Digital_Optical_18Tx_14Tx4Rx.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Gerber\Digital_Optical_18Tx_14Tx4Rx.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Gerber\Digital_Optical_18Tx_14Tx4Rx.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Gerber\Digital_Optical_18Tx_14Tx4Rx.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Gerber\Digital_Optical_18Tx_14Tx4Rx.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Gerber\Digital_Optical_18Tx_14Tx4Rx.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Gerber\Digital_Optical_18Tx_14Tx4Rx.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Gerber\Digital_Optical_18Tx_14Tx4Rx.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Gerber\Digital_Optical_18Tx_14Tx4Rx.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Gerber\Digital_Optical_18Tx_14Tx4Rx.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\NC Drill\Digital_Optical_18Tx_14Tx4Rx.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Gerber\Digital_Optical_18Tx_14Tx4Rx.REP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Gerber\Digital_Optical_18Tx_14Tx4Rx.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\NC Drill\Digital_Optical_18Tx_14Tx4Rx.TXT
 DItemRevisionGUID=
 
 [SearchPath1]
@@ -503,20 +579,20 @@ Path=..\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=AuthorParam
-Value=E. Romaschenko
+Name=ProjectRevision
+Value=Rev05
 
 [Parameter2]
-Name=Date
-Value=03/21
-
-[Parameter3]
 Name=ProjectName
 Value=Digital_Adapter_Optical_18Tx/14Tx_4Rx
 
+[Parameter3]
+Name=Date
+Value=03/21
+
 [Parameter4]
-Name=ProjectRevision
-Value=5v01
+Name=AuthorParam
+Value=E. Romaschenko
 
 [Configuration1]
 Name=Sources
@@ -529,7 +605,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Digital_Optical_18Tx_14Tx4Rx
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -636,12 +712,42 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=SIMetrixNetlist
+OutputName21=SIMetrix
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
+OutputType22=SIMPLISNetlist
+OutputName22=SIMPLIS
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=XSpiceNetlist
+OutputName23=XSpice Netlist
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=OKI B432(PS)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -953,78 +1059,6 @@ OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
 PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType18=Text Print
-OutputName18=Text Print
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType19=Text Print
-OutputName19=Text Print
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
-PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType20=Text Print
-OutputName20=Text Print
-OutputDocumentPath20=
-OutputVariantName20=
-OutputDefault20=0
-PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType21=Text Print
-OutputName21=Text Print
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType22=Text Print
-OutputName22=Text Print
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType23=Text Print
-OutputName23=Text Print
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
-PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType24=Text Print
-OutputName24=Text Print
-OutputDocumentPath24=
-OutputVariantName24=
-OutputDefault24=0
-PageOptions24=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType25=Text Print
-OutputName25=Text Print
-OutputDocumentPath25=
-OutputVariantName25=
-OutputDefault25=0
-PageOptions25=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType26=Text Print
-OutputName26=Text Print
-OutputDocumentPath26=
-OutputVariantName26=
-OutputDefault26=0
-PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType27=Text Print
-OutputName27=Text Print
-OutputDocumentPath27=
-OutputVariantName27=
-OutputDefault27=0
-PageOptions27=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType28=Text Print
-OutputName28=Text Print
-OutputDocumentPath28=
-OutputVariantName28=
-OutputDefault28=0
-PageOptions28=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType29=Text Print
-OutputName29=Text Print
-OutputDocumentPath29=
-OutputVariantName29=
-OutputDefault29=0
-PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup8]
 Name=Validation Outputs
@@ -1456,6 +1490,9 @@ Type119=3
 MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
+Type123=1
+Type124=1
+Type125=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1523,12 +1560,12 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
