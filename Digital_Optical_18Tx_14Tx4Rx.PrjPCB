@@ -265,7 +265,7 @@ UniqueID=AFF8D3B2-D619-4BC2-9C49-FEA21353CFF5
 Description=18Tx
 AllowFabrication=0
 ParameterCount=0
-VariationCount=14
+VariationCount=18
 Variation1=Designator=R14A|UniqueId=\1TSJUHLFS\PPZIGAPE|Kind=1|AlternatePart= 
 Variation2=Designator=R14B|UniqueId=\2TSJUHLFS\PPZIGAPE|Kind=1|AlternatePart= 
 Variation3=Designator=P1|UniqueId=\JCLZDPBJ|Kind=1|AlternatePart= 
@@ -280,6 +280,10 @@ Variation11=Designator=R4C|UniqueId=\3TSJUHLFS\UGPTKVJH|Kind=1|AlternatePart=
 Variation12=Designator=R4B|UniqueId=\2TSJUHLFS\UGPTKVJH|Kind=1|AlternatePart= 
 Variation13=Designator=R14C|UniqueId=\3TSJUHLFS\PPZIGAPE|Kind=1|AlternatePart= 
 Variation14=Designator=R14D|UniqueId=\4TSJUHLFS\PPZIGAPE|Kind=1|AlternatePart= 
+Variation15=Designator=R9A|UniqueId=\1TSJUHLFS\XBEAJATO|Kind=1|AlternatePart= 
+Variation16=Designator=R9D|UniqueId=\4TSJUHLFS\XBEAJATO|Kind=1|AlternatePart= 
+Variation17=Designator=R9B|UniqueId=\2TSJUHLFS\XBEAJATO|Kind=1|AlternatePart= 
+Variation18=Designator=R9C|UniqueId=\3TSJUHLFS\XBEAJATO|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -287,7 +291,7 @@ UniqueID=267A4DA3-A555-4E0E-B038-0CD9A042998F
 Description=14Tx 4Rx
 AllowFabrication=0
 ParameterCount=0
-VariationCount=24
+VariationCount=28
 Variation1=Designator=R20A|UniqueId=\1TSJUHLFS\YZMYDINK|Kind=0|AlternatePart==Value
 ParamVariation1=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603FR-072KL
 ParamDesignator1=R20A
@@ -508,6 +512,10 @@ Variation21=Designator=R3C|UniqueId=\3TSJUHLFS\CRHEZYSX|Kind=1|AlternatePart=
 Variation22=Designator=R3D|UniqueId=\4TSJUHLFS\CRHEZYSX|Kind=1|AlternatePart= 
 Variation23=Designator=X3|UniqueId=\MQAXBLOX|Kind=1|AlternatePart= 
 Variation24=Designator=X4|UniqueId=\NRWJYWRK|Kind=1|AlternatePart= 
+Variation25=Designator=R11A|UniqueId=\1TSJUHLFS\GFDXJGNX|Kind=1|AlternatePart= 
+Variation26=Designator=R11B|UniqueId=\2TSJUHLFS\GFDXJGNX|Kind=1|AlternatePart= 
+Variation27=Designator=R11C|UniqueId=\3TSJUHLFS\GFDXJGNX|Kind=1|AlternatePart= 
+Variation28=Designator=R11D|UniqueId=\4TSJUHLFS\GFDXJGNX|Kind=1|AlternatePart= 
 ParamVariationCount=98
 
 [GeneratedDocument1]
