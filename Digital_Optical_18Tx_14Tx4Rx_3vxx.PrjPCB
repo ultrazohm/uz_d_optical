@@ -1,4 +1,4 @@
-[Design]
+﻿[Design]
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
@@ -23,12 +23,14 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=1
 PowerPortNamesTakePriority=0
+AutoSheetNumbering=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+IsProjectConflictPreventionWarningsEnabled=1
+OutputPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -225,18 +227,6 @@ GenerateClassCluster=0
 DocumentUniqueId=EUTONNES
 
 [ProjectVariant1]
-UniqueID=F0B4B012-360B-42A7-946A-D500117F690E
-Description=Standard
-AllowFabrication=0
-ParameterCount=0
-VariationCount=4
-Variation1=Designator=R16|UniqueId=\BLGFYTBF\HQGLAWYH|Kind=1|AlternatePart= 
-Variation2=Designator=P2|UniqueId=\BLGFYTBF\GLBWZHVP|Kind=1|AlternatePart= 
-Variation3=Designator=X2|UniqueId=\KVJEQOFT\OMUVYHYC|Kind=1|AlternatePart= 
-Variation4=Designator=P1|UniqueId=\JCLZDPBJ|Kind=1|AlternatePart= 
-ParamVariationCount=0
-
-[ProjectVariant2]
 UniqueID=AFF8D3B2-D619-4BC2-9C49-FEA21353CFF5
 Description=18Tx
 AllowFabrication=0
@@ -254,15 +244,13 @@ Variation9=Designator=X4|UniqueId=\NRWJYWRK|Kind=1|AlternatePart=
 Variation10=Designator=X3|UniqueId=\MQAXBLOX|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
-[ProjectVariant3]
+[ProjectVariant2]
 UniqueID=267A4DA3-A555-4E0E-B038-0CD9A042998F
-Description=14Tx 4Rx
+Description=14Tx4Rx
 AllowFabrication=0
 ParameterCount=0
-VariationCount=36
-Variation1=Designator=D4A|UniqueId=\1TSJUHLFS\EABVVGHM|Kind=1|AlternatePart= 
-Variation2=Designator=D4B|UniqueId=\2TSJUHLFS\EABVVGHM|Kind=1|AlternatePart= 
-Variation3=Designator=U5A|UniqueId=\1TSJUHLFS\ZIOYFUYJ|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
+VariationCount=30
+Variation1=Designator=U5A|UniqueId=\1TSJUHLFS\ZIOYFUYJ|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
 ParamVariation1=ParameterName=Comment|VariantValue=Optical Reciever
 ParamDesignator1=U5A
 ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
@@ -305,7 +293,7 @@ ParamVariation20=ParameterName=Supply Voltage|VariantValue=5V
 ParamDesignator20=U5A
 ParamVariation21=ParameterName=Wavelength|VariantValue=660 nm
 ParamDesignator21=U5A
-Variation4=Designator=U3B|UniqueId=\2TSJUHLFS\EEECUNKE|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
+Variation2=Designator=U3B|UniqueId=\2TSJUHLFS\EEECUNKE|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
 ParamVariation22=ParameterName=Comment|VariantValue=Optical Reciever
 ParamDesignator22=U3B
 ParamVariation23=ParameterName=Component Kind|VariantValue=Standard
@@ -348,7 +336,7 @@ ParamVariation41=ParameterName=Supply Voltage|VariantValue=5V
 ParamDesignator41=U3B
 ParamVariation42=ParameterName=Wavelength|VariantValue=660 nm
 ParamDesignator42=U3B
-Variation5=Designator=U3A|UniqueId=\1TSJUHLFS\EEECUNKE|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
+Variation3=Designator=U3A|UniqueId=\1TSJUHLFS\EEECUNKE|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
 ParamVariation43=ParameterName=Comment|VariantValue=Optical Reciever
 ParamDesignator43=U3A
 ParamVariation44=ParameterName=Component Kind|VariantValue=Standard
@@ -391,7 +379,7 @@ ParamVariation62=ParameterName=Supply Voltage|VariantValue=5V
 ParamDesignator62=U3A
 ParamVariation63=ParameterName=Wavelength|VariantValue=660 nm
 ParamDesignator63=U3A
-Variation6=Designator=U5B|UniqueId=\2TSJUHLFS\ZIOYFUYJ|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
+Variation4=Designator=U5B|UniqueId=\2TSJUHLFS\ZIOYFUYJ|Kind=2|AlternatePart=Optical Reciever|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\thoma\Documents\Altium\UltraZOhm\Optical Interface\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-2528Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
 ParamVariation64=ParameterName=Comment|VariantValue=Optical Reciever
 ParamDesignator64=U5B
 ParamVariation65=ParameterName=Component Kind|VariantValue=Standard
@@ -434,89 +422,81 @@ ParamVariation83=ParameterName=Supply Voltage|VariantValue=5V
 ParamDesignator83=U5B
 ParamVariation84=ParameterName=Wavelength|VariantValue=660 nm
 ParamDesignator84=U5B
-Variation7=Designator=R20A|UniqueId=\1TSJUHLFS\YZMYDINK|Kind=0|AlternatePart==Value
-ParamVariation85=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603FR-073K3L
+Variation5=Designator=R20A|UniqueId=\1TSJUHLFS\YZMYDINK|Kind=0|AlternatePart==Value
+ParamVariation85=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603FR-072KL
 ParamDesignator85=R20A
-ParamVariation86=ParameterName=MPN|VariantValue=RC0603FR-073K3L
+ParamVariation86=ParameterName=MPN|VariantValue=RC0603FR-072KL
 ParamDesignator86=R20A
-ParamVariation87=ParameterName=Value|VariantValue=3.3k
+ParamVariation87=ParameterName=Value|VariantValue=2k
 ParamDesignator87=R20A
 ParamVariation88=ParameterName=Comment|VariantValue==Value
 ParamDesignator88=R20A
-Variation8=Designator=R20B|UniqueId=\2TSJUHLFS\YZMYDINK|Kind=0|AlternatePart==Value
-ParamVariation89=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603FR-073K3L
+Variation6=Designator=R20B|UniqueId=\2TSJUHLFS\YZMYDINK|Kind=0|AlternatePart==Value
+ParamVariation89=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603FR-072KL
 ParamDesignator89=R20B
-ParamVariation90=ParameterName=MPN|VariantValue=RC0603FR-073K3L
+ParamVariation90=ParameterName=MPN|VariantValue=RC0603FR-072KL
 ParamDesignator90=R20B
-ParamVariation91=ParameterName=Value|VariantValue=3.3k
+ParamVariation91=ParameterName=Value|VariantValue=2k
 ParamDesignator91=R20B
 ParamVariation92=ParameterName=Comment|VariantValue==Value
 ParamDesignator92=R20B
-Variation9=Designator=R27A|UniqueId=\1TSJUHLFS\WWNAGYFX|Kind=0|AlternatePart==Value
-ParamVariation93=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603FR-073K3L
+Variation7=Designator=R27A|UniqueId=\1TSJUHLFS\WWNAGYFX|Kind=0|AlternatePart==Value
+ParamVariation93=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603FR-072KL
 ParamDesignator93=R27A
-ParamVariation94=ParameterName=MPN|VariantValue=RC0603FR-073K3L
+ParamVariation94=ParameterName=MPN|VariantValue=RC0603FR-072KL
 ParamDesignator94=R27A
-ParamVariation95=ParameterName=Value|VariantValue=3.3k
+ParamVariation95=ParameterName=Value|VariantValue=2k
 ParamDesignator95=R27A
 ParamVariation96=ParameterName=Comment|VariantValue==Value
 ParamDesignator96=R27A
-Variation10=Designator=R27B|UniqueId=\2TSJUHLFS\WWNAGYFX|Kind=0|AlternatePart==Value
-ParamVariation97=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603FR-073K3L
+Variation8=Designator=R27B|UniqueId=\2TSJUHLFS\WWNAGYFX|Kind=0|AlternatePart==Value
+ParamVariation97=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603FR-072KL
 ParamDesignator97=R27B
-ParamVariation98=ParameterName=MPN|VariantValue=RC0603FR-073K3L
+ParamVariation98=ParameterName=MPN|VariantValue=RC0603FR-072KL
 ParamDesignator98=R27B
-ParamVariation99=ParameterName=Value|VariantValue=3.3k
+ParamVariation99=ParameterName=Value|VariantValue=2k
 ParamDesignator99=R27B
 ParamVariation100=ParameterName=Comment|VariantValue==Value
 ParamDesignator100=R27B
-Variation11=Designator=C8A|UniqueId=\1TSJUHLFS\RAUHFOFW|Kind=0|AlternatePart==Value
-ParamVariation101=ParameterName=MF|VariantValue=Wuerth Elektronik
+Variation9=Designator=C8A|UniqueId=\1TSJUHLFS\RAUHFOFW|Kind=0|AlternatePart==Value
+ParamVariation101=ParameterName=MF|VariantValue=Taiyo Yuden
 ParamDesignator101=C8A
-ParamVariation102=ParameterName=MPN|VariantValue=885012207074
+ParamVariation102=ParameterName=MPN|VariantValue=LMF212B7475KGHT
 ParamDesignator102=C8A
-ParamVariation103=ParameterName=Rated Voltage|VariantValue=25 V
+ParamVariation103=ParameterName=Rated Voltage|VariantValue=10 V
 ParamDesignator103=C8A
-ParamVariation104=ParameterName=Supplier Part Number 1|VariantValue=710-885012207074
+ParamVariation104=ParameterName=Supplier Part Number 1|VariantValue=963-LMF212B7475KGHT
 ParamDesignator104=C8A
-ParamVariation105=ParameterName=Value|VariantValue=220nF
+ParamVariation105=ParameterName=Value|VariantValue=4.7µF
 ParamDesignator105=C8A
 ParamVariation106=ParameterName=Comment|VariantValue==Value
 ParamDesignator106=C8A
-Variation12=Designator=C8B|UniqueId=\2TSJUHLFS\RAUHFOFW|Kind=0|AlternatePart==Value
-ParamVariation107=ParameterName=MF|VariantValue=Wuerth Elektronik
+Variation10=Designator=C8B|UniqueId=\2TSJUHLFS\RAUHFOFW|Kind=0|AlternatePart==Value
+ParamVariation107=ParameterName=MF|VariantValue=Taiyo Yuden
 ParamDesignator107=C8B
-ParamVariation108=ParameterName=MPN|VariantValue=885012207074
+ParamVariation108=ParameterName=MPN|VariantValue=LMF212B7475KGHT
 ParamDesignator108=C8B
-ParamVariation109=ParameterName=Rated Voltage|VariantValue=25 V
+ParamVariation109=ParameterName=Rated Voltage|VariantValue=10 V
 ParamDesignator109=C8B
-ParamVariation110=ParameterName=Supplier Part Number 1|VariantValue=710-885012207074
+ParamVariation110=ParameterName=Supplier Part Number 1|VariantValue=963-LMF212B7475KGHT
 ParamDesignator110=C8B
-ParamVariation111=ParameterName=Value|VariantValue=220nF
+ParamVariation111=ParameterName=Value|VariantValue=4.7µF
 ParamDesignator111=C8B
 ParamVariation112=ParameterName=Comment|VariantValue==Value
 ParamDesignator112=C8B
-Variation13=Designator=D3A|UniqueId=\1TSJUHLFS\WEWXBYSD|Kind=1|AlternatePart= 
-Variation14=Designator=R13A|UniqueId=\1TSJUHLFS\JIDHJVBH|Kind=1|AlternatePart= 
-Variation15=Designator=R24A|UniqueId=\1TSJUHLFS\DCTTDBLH|Kind=1|AlternatePart= 
-Variation16=Designator=R22A|UniqueId=\1TSJUHLFS\OBZZOKCU|Kind=1|AlternatePart= 
-Variation17=Designator=U4A|UniqueId=\1TSJUHLFS\UBNIGWHG|Kind=1|AlternatePart= 
-Variation18=Designator=R24B|UniqueId=\2TSJUHLFS\DCTTDBLH|Kind=1|AlternatePart= 
-Variation19=Designator=R23B|UniqueId=\2TSJUHLFS\UYKYCWDB|Kind=1|AlternatePart= 
-Variation20=Designator=R13B|UniqueId=\2TSJUHLFS\JIDHJVBH|Kind=1|AlternatePart= 
-Variation21=Designator=R19A|UniqueId=\1TSJUHLFS\EVWPMAWD|Kind=1|AlternatePart= 
-Variation22=Designator=R23A|UniqueId=\1TSJUHLFS\UYKYCWDB|Kind=1|AlternatePart= 
-Variation23=Designator=D3B|UniqueId=\2TSJUHLFS\WEWXBYSD|Kind=1|AlternatePart= 
-Variation24=Designator=R11B|UniqueId=\2TSJUHLFS\GFDXJGNX|Kind=1|AlternatePart= 
-Variation25=Designator=U4B|UniqueId=\2TSJUHLFS\UBNIGWHG|Kind=1|AlternatePart= 
-Variation26=Designator=R19B|UniqueId=\2TSJUHLFS\EVWPMAWD|Kind=1|AlternatePart= 
-Variation27=Designator=R11A|UniqueId=\1TSJUHLFS\GFDXJGNX|Kind=1|AlternatePart= 
-Variation28=Designator=R22B|UniqueId=\2TSJUHLFS\OBZZOKCU|Kind=1|AlternatePart= 
-Variation29=Designator=P1|UniqueId=\JCLZDPBJ|Kind=1|AlternatePart= 
-Variation30=Designator=P2|UniqueId=\BLGFYTBF\GLBWZHVP|Kind=1|AlternatePart= 
-Variation31=Designator=R16|UniqueId=\BLGFYTBF\HQGLAWYH|Kind=1|AlternatePart= 
-Variation32=Designator=X2|UniqueId=\KVJEQOFT\OMUVYHYC|Kind=1|AlternatePart= 
-Variation33=Designator=R21A|UniqueId=\1TSJUHLFS\SGSULMNO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=UZOhm_Optical.SchLib|AltLibLink_SymbolReference=R_config|AltLibLink_DesignItemID=R_config_down|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=0603_Config_down|AltLibLink_IsSameFootprint=False
+Variation11=Designator=R13A|UniqueId=\1TSJUHLFS\JIDHJVBH|Kind=1|AlternatePart= 
+Variation12=Designator=R24A|UniqueId=\1TSJUHLFS\DCTTDBLH|Kind=1|AlternatePart= 
+Variation13=Designator=R24B|UniqueId=\2TSJUHLFS\DCTTDBLH|Kind=1|AlternatePart= 
+Variation14=Designator=R23B|UniqueId=\2TSJUHLFS\UYKYCWDB|Kind=1|AlternatePart= 
+Variation15=Designator=R13B|UniqueId=\2TSJUHLFS\JIDHJVBH|Kind=1|AlternatePart= 
+Variation16=Designator=R19A|UniqueId=\1TSJUHLFS\EVWPMAWD|Kind=1|AlternatePart= 
+Variation17=Designator=R23A|UniqueId=\1TSJUHLFS\UYKYCWDB|Kind=1|AlternatePart= 
+Variation18=Designator=R19B|UniqueId=\2TSJUHLFS\EVWPMAWD|Kind=1|AlternatePart= 
+Variation19=Designator=P1|UniqueId=\JCLZDPBJ|Kind=1|AlternatePart= 
+Variation20=Designator=P2|UniqueId=\BLGFYTBF\GLBWZHVP|Kind=1|AlternatePart= 
+Variation21=Designator=R16|UniqueId=\BLGFYTBF\HQGLAWYH|Kind=1|AlternatePart= 
+Variation22=Designator=X2|UniqueId=\KVJEQOFT\OMUVYHYC|Kind=1|AlternatePart= 
+Variation23=Designator=R21A|UniqueId=\1TSJUHLFS\SGSULMNO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=UZOhm_Optical.SchLib|AltLibLink_SymbolReference=R_config|AltLibLink_DesignItemID=R_config_down|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=0603_Config_down|AltLibLink_IsSameFootprint=False
 ParamVariation113=ParameterName=Comment|VariantValue==Value
 ParamDesignator113=R21A
 ParamVariation114=ParameterName=Component Kind|VariantValue=Standard
@@ -541,7 +521,7 @@ ParamVariation123=ParameterName=Simulation|VariantValue=
 ParamDesignator123=R21A
 ParamVariation124=ParameterName=Value|VariantValue=0R
 ParamDesignator124=R21A
-Variation34=Designator=R21B|UniqueId=\2TSJUHLFS\SGSULMNO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=UZOhm_Optical.SchLib|AltLibLink_SymbolReference=R_config|AltLibLink_DesignItemID=R_config_down|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=0603_Config_down|AltLibLink_IsSameFootprint=False
+Variation24=Designator=R21B|UniqueId=\2TSJUHLFS\SGSULMNO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=UZOhm_Optical.SchLib|AltLibLink_SymbolReference=R_config|AltLibLink_DesignItemID=R_config_down|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=0603_Config_down|AltLibLink_IsSameFootprint=False
 ParamVariation125=ParameterName=Comment|VariantValue==Value
 ParamDesignator125=R21B
 ParamVariation126=ParameterName=Component Kind|VariantValue=Standard
@@ -566,7 +546,7 @@ ParamVariation135=ParameterName=Simulation|VariantValue=
 ParamDesignator135=R21B
 ParamVariation136=ParameterName=Value|VariantValue=0R
 ParamDesignator136=R21B
-Variation35=Designator=R25B|UniqueId=\2TSJUHLFS\RDLQNWZK|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=UZOhm_Optical.SchLib|AltLibLink_SymbolReference=R_config|AltLibLink_DesignItemID=R_config_down|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=0603_Config_down|AltLibLink_IsSameFootprint=False
+Variation25=Designator=R25B|UniqueId=\2TSJUHLFS\RDLQNWZK|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=UZOhm_Optical.SchLib|AltLibLink_SymbolReference=R_config|AltLibLink_DesignItemID=R_config_down|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=0603_Config_down|AltLibLink_IsSameFootprint=False
 ParamVariation137=ParameterName=Comment|VariantValue==Value
 ParamDesignator137=R25B
 ParamVariation138=ParameterName=Component Kind|VariantValue=Standard
@@ -591,7 +571,7 @@ ParamVariation147=ParameterName=Simulation|VariantValue=
 ParamDesignator147=R25B
 ParamVariation148=ParameterName=Value|VariantValue=0R
 ParamDesignator148=R25B
-Variation36=Designator=R25A|UniqueId=\1TSJUHLFS\RDLQNWZK|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=UZOhm_Optical.SchLib|AltLibLink_SymbolReference=R_config|AltLibLink_DesignItemID=R_config_down|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=0603_Config_down|AltLibLink_IsSameFootprint=False
+Variation26=Designator=R25A|UniqueId=\1TSJUHLFS\RDLQNWZK|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=UZOhm_Optical.SchLib|AltLibLink_SymbolReference=R_config|AltLibLink_DesignItemID=R_config_down|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=0603_Config_down|AltLibLink_IsSameFootprint=False
 ParamVariation149=ParameterName=Comment|VariantValue==Value
 ParamDesignator149=R25A
 ParamVariation150=ParameterName=Component Kind|VariantValue=Standard
@@ -616,7 +596,27 @@ ParamVariation159=ParameterName=Simulation|VariantValue=
 ParamDesignator159=R25A
 ParamVariation160=ParameterName=Value|VariantValue=0R
 ParamDesignator160=R25A
-ParamVariationCount=160
+Variation27=Designator=R26A|UniqueId=\1TSJUHLFS\RLWVHXKK|Kind=0|AlternatePart==Value
+ParamVariation161=ParameterName=Value|VariantValue=1k
+ParamDesignator161=R26A
+ParamVariation162=ParameterName=Comment|VariantValue==Value
+ParamDesignator162=R26A
+Variation28=Designator=R26B|UniqueId=\2TSJUHLFS\RLWVHXKK|Kind=0|AlternatePart==Value
+ParamVariation163=ParameterName=Value|VariantValue=1k
+ParamDesignator163=R26B
+ParamVariation164=ParameterName=Comment|VariantValue==Value
+ParamDesignator164=R26B
+Variation29=Designator=R14A|UniqueId=\1TSJUHLFS\UPRMEAUF|Kind=0|AlternatePart==Value
+ParamVariation165=ParameterName=Value|VariantValue=1k
+ParamDesignator165=R14A
+ParamVariation166=ParameterName=Comment|VariantValue==Value
+ParamDesignator166=R14A
+Variation30=Designator=R14B|UniqueId=\2TSJUHLFS\UPRMEAUF|Kind=0|AlternatePart==Value
+ParamVariation167=ParameterName=Value|VariantValue=1k
+ParamDesignator167=R14B
+ParamVariation168=ParameterName=Comment|VariantValue==Value
+ParamDesignator168=R14B
+ParamVariationCount=168
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\BOM\BOM_Digital_Optical_18Tx_14Tx4Rx_3vxx_3v01.xlsx
@@ -709,7 +709,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -816,12 +816,42 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=SIMetrixNetlist
+OutputName21=SIMetrix
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
+OutputType22=SIMPLISNetlist
+OutputName22=SIMPLIS
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=XSpiceNetlist
+OutputName23=XSpice Netlist
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=PDFCreator
+TargetPrinter=OKI B432(PS)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -888,6 +918,12 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=PDF3D MBA
+OutputName11=PDF3D MBA
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1127,78 +1163,6 @@ OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
 PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType18=Text Print
-OutputName18=Text Print
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType19=Text Print
-OutputName19=Text Print
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
-PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType20=Text Print
-OutputName20=Text Print
-OutputDocumentPath20=
-OutputVariantName20=
-OutputDefault20=0
-PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType21=Text Print
-OutputName21=Text Print
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType22=Text Print
-OutputName22=Text Print
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType23=Text Print
-OutputName23=Text Print
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
-PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType24=Text Print
-OutputName24=Text Print
-OutputDocumentPath24=
-OutputVariantName24=
-OutputDefault24=0
-PageOptions24=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType25=Text Print
-OutputName25=Text Print
-OutputDocumentPath25=
-OutputVariantName25=
-OutputDefault25=0
-PageOptions25=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType26=Text Print
-OutputName26=Text Print
-OutputDocumentPath26=
-OutputVariantName26=
-OutputDefault26=0
-PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType27=Text Print
-OutputName27=Text Print
-OutputDocumentPath27=
-OutputVariantName27=
-OutputDefault27=0
-PageOptions27=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType28=Text Print
-OutputName28=Text Print
-OutputDocumentPath28=
-OutputVariantName28=
-OutputDefault28=0
-PageOptions28=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType29=Text Print
-OutputName29=Text Print
-OutputDocumentPath29=
-OutputVariantName29=
-OutputDefault29=0
-PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup8]
 Name=Validation Outputs
@@ -1238,6 +1202,11 @@ OutputName6=Footprint Comparison Report
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
+OutputType7=BOM_Violations
+OutputName7=BOM Checks Report
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
 
 [OutputGroup9]
 Name=Export Outputs
@@ -1289,6 +1258,46 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=Ansoft Neutral
+OutputName10=Ansoft Neutral (AutoPCB)
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=HyperLynx
+OutputName11=HyperLynx (AutoPCB)
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=MBAExportPARASOLID
+OutputName12=Export PARASOLID
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=MBAExportSTEP
+OutputName13=Export STEP
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1418,6 +1427,9 @@ Type113=1
 Type114=1
 Type115=1
 Type116=1
+Type117=1
+Type118=1
+Type119=1
 
 [Difference Levels]
 Type1=1
@@ -1485,6 +1497,9 @@ Type62=1
 Type63=1
 Type64=1
 Type65=1
+Type66=1
+Type67=1
+Type68=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1609,6 +1624,9 @@ Type119=3
 MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
+Type123=1
+Type124=1
+Type125=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1632,6 +1650,7 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=3
 SortLocation=0
+ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
@@ -1652,6 +1671,7 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 FullReplace=1
 UpdateDesignatorLock=1
@@ -1670,15 +1690,16 @@ UpdateCurrentModels=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
