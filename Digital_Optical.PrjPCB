@@ -513,122 +513,62 @@ Variation26=Designator=R18D|UniqueId=\4TSJUHLFS\HLOCOAQD|Kind=1|AlternatePart=
 ParamVariationCount=8
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx_3vxx\BOM\BOM_Digital_Optical_18Tx_14Tx4Rx_3vxx_3v01.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Rev06\BOM\BOM_Digital_Optical_Rev06.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath==ProjectRevision\NC Drill\Digital_Optical_18Tx_14Tx4Rx.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument4]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Rev06\NC Drill\Digital_Optical_18Tx_14Tx4Rx.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument5]
-DocumentPath==ProjectRevision\Gerber\Digital_Optical_18Tx_14Tx4Rx.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument6]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Rev06\Gerber\Digital_Optical_18Tx_14Tx4Rx.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument7]
-DocumentPath==ProjectRevision\Gerber\Digital_Optical_18Tx_14Tx4Rx.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument8]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Rev06\Gerber\Digital_Optical_18Tx_14Tx4Rx.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument9]
-DocumentPath==ProjectRevision\Gerber\Digital_Optical_18Tx_14Tx4Rx.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument10]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Rev06\Gerber\Digital_Optical_18Tx_14Tx4Rx.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument11]
-DocumentPath==ProjectRevision\Gerber\Digital_Optical_18Tx_14Tx4Rx.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument12]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Rev06\Gerber\Digital_Optical_18Tx_14Tx4Rx.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument13]
-DocumentPath==ProjectRevision\Gerber\Digital_Optical_18Tx_14Tx4Rx.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument14]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Rev06\Gerber\Digital_Optical_18Tx_14Tx4Rx.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument15]
-DocumentPath==ProjectRevision\Gerber\Digital_Optical_18Tx_14Tx4Rx.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument16]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Rev06\Gerber\Digital_Optical_18Tx_14Tx4Rx.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument17]
-DocumentPath==ProjectRevision\Gerber\Digital_Optical_18Tx_14Tx4Rx.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument18]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Rev06\Gerber\Digital_Optical_18Tx_14Tx4Rx.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument19]
-DocumentPath==ProjectRevision\Gerber\Digital_Optical_18Tx_14Tx4Rx.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument20]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Rev06\Gerber\Digital_Optical_18Tx_14Tx4Rx.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument21]
-DocumentPath==ProjectRevision\Gerber\Digital_Optical_18Tx_14Tx4Rx.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument22]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Rev06\Gerber\Digital_Optical_18Tx_14Tx4Rx.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument23]
-DocumentPath==ProjectRevision\Gerber\Digital_Optical_18Tx_14Tx4Rx.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument24]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Rev06\Gerber\Digital_Optical_18Tx_14Tx4Rx.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument25]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Rev06\NC Drill\Digital_Optical_18Tx_14Tx4Rx.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument26]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Rev06\Gerber\Digital_Optical_18Tx_14Tx4Rx.REP
 DItemRevisionGUID=
 
-[GeneratedDocument27]
-DocumentPath==ProjectRevision\Gerber\Digital_Optical_18Tx_14Tx4Rx.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument28]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Rev06\Gerber\Digital_Optical_18Tx_14Tx4Rx.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument29]
-DocumentPath==ProjectRevision\NC Drill\Digital_Optical_18Tx_14Tx4Rx.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument30]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for Digital_Optical_18Tx_14Tx4Rx\Rev06\NC Drill\Digital_Optical_18Tx_14Tx4Rx.TXT
 DItemRevisionGUID=
 
@@ -637,20 +577,20 @@ Path=..\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=ProjectRevision
-Value=Rev06
+Name=AuthorParam
+Value=E. Romaschenko
 
 [Parameter2]
-Name=ProjectName
-Value=Digital_Adapter_Optical_18Tx/14Tx_4Rx
-
-[Parameter3]
 Name=Date
 Value=04/21
 
+[Parameter3]
+Name=ProjectName
+Value=Digital_Adapter_Optical_18Tx/14Tx_4Rx
+
 [Parameter4]
-Name=AuthorParam
-Value=E. Romaschenko
+Name=ProjectRevision
+Value=Rev06
 
 [Configuration1]
 Name=Sources
@@ -1234,6 +1174,36 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
