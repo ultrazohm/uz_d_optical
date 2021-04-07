@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Digital_Optical_18Tx_14Tx4Rx.PcbDoc   07.04.2021  17:58:14
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Digital_Optical_18Tx_14Tx4Rx.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.2mm)                                              Round             6         PTH        0.00inch (0.00mm)
+T2      12mil (0.3mm)                                             Round             97        PTH        0.00inch (0.00mm)
+T3      16mil (0.4mm)                                             Round             185       PTH        0.00inch (0.00mm)
+T4      35mil (0.889mm)         +/-3mil (0.076mm)                 Round             36        PTH        0.00inch (0.00mm)
+T5      35mil (0.9mm)                                             Round             28        PTH        0.00inch (0.00mm)
+T6      38mil (0.965mm)                                           Round             72        PTH        0.00inch (0.00mm)
+T7      40mil (1.016mm)                                           Round             32        PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              456
+
+Total Processing Time (hh:mm:ss) : 00:00:00
