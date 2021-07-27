@@ -265,7 +265,7 @@ UniqueID=AFF8D3B2-D619-4BC2-9C49-FEA21353CFF5
 Description=18Tx
 AllowFabrication=0
 ParameterCount=0
-VariationCount=26
+VariationCount=22
 Variation1=Designator=P1|UniqueId=\JCLZDPBJ|Kind=1|AlternatePart= 
 Variation2=Designator=P2|UniqueId=\BLGFYTBF\GLBWZHVP|Kind=1|AlternatePart= 
 Variation3=Designator=R16|UniqueId=\BLGFYTBF\HQGLAWYH|Kind=1|AlternatePart= 
@@ -276,15 +276,11 @@ Variation7=Designator=R3A|UniqueId=\1TSJUHLFS\UGPTKVJH|Kind=1|AlternatePart=
 Variation8=Designator=R3D|UniqueId=\4TSJUHLFS\UGPTKVJH|Kind=1|AlternatePart= 
 Variation9=Designator=R3C|UniqueId=\3TSJUHLFS\UGPTKVJH|Kind=1|AlternatePart= 
 Variation10=Designator=R3B|UniqueId=\2TSJUHLFS\UGPTKVJH|Kind=1|AlternatePart= 
-Variation11=Designator=R7A|UniqueId=\1EWQHOCHA\ZJIQLDBY|Kind=1|AlternatePart= 
-Variation12=Designator=R7B|UniqueId=\2EWQHOCHA\ZJIQLDBY|Kind=1|AlternatePart= 
-Variation13=Designator=R7C|UniqueId=\3EWQHOCHA\ZJIQLDBY|Kind=1|AlternatePart= 
-Variation14=Designator=R7D|UniqueId=\4EWQHOCHA\ZJIQLDBY|Kind=1|AlternatePart= 
-Variation15=Designator=U6D|UniqueId=\4TSJUHLFS\TCWTZZCX|Kind=1|AlternatePart= 
-Variation16=Designator=U6C|UniqueId=\3TSJUHLFS\TCWTZZCX|Kind=1|AlternatePart= 
-Variation17=Designator=U6B|UniqueId=\2TSJUHLFS\TCWTZZCX|Kind=1|AlternatePart= 
-Variation18=Designator=U6A|UniqueId=\1TSJUHLFS\TCWTZZCX|Kind=1|AlternatePart= 
-Variation19=Designator=U3A|UniqueId=\1TSJUHLFS\RAXGSACH|Kind=2|AlternatePart=Optical Transmitter|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-1521Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
+Variation11=Designator=U6D|UniqueId=\4TSJUHLFS\TCWTZZCX|Kind=1|AlternatePart= 
+Variation12=Designator=U6C|UniqueId=\3TSJUHLFS\TCWTZZCX|Kind=1|AlternatePart= 
+Variation13=Designator=U6B|UniqueId=\2TSJUHLFS\TCWTZZCX|Kind=1|AlternatePart= 
+Variation14=Designator=U6A|UniqueId=\1TSJUHLFS\TCWTZZCX|Kind=1|AlternatePart= 
+Variation15=Designator=U3A|UniqueId=\1TSJUHLFS\RAXGSACH|Kind=2|AlternatePart=Optical Transmitter|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-1521Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
 ParamVariation1=ParameterName=Comment|VariantValue=Optical Transmitter
 ParamDesignator1=U3A
 ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
@@ -327,8 +323,8 @@ ParamVariation20=ParameterName=Supply Voltage|VariantValue=5V
 ParamDesignator20=U3A
 ParamVariation21=ParameterName=Wavelength|VariantValue=660 nm
 ParamDesignator21=U3A
-Variation20=Designator=U3B|UniqueId=\2TSJUHLFS\RAXGSACH|Kind=2|AlternatePart=Optical Transceiver|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-1521Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
-ParamVariation22=ParameterName=Comment|VariantValue=Optical Transceiver
+Variation16=Designator=U3B|UniqueId=\2TSJUHLFS\RAXGSACH|Kind=2|AlternatePart=Optical Transmitter|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-1521Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
+ParamVariation22=ParameterName=Comment|VariantValue=Optical Transmitter
 ParamDesignator22=U3B
 ParamVariation23=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator23=U3B
@@ -370,97 +366,109 @@ ParamVariation41=ParameterName=Supply Voltage|VariantValue=5V
 ParamDesignator41=U3B
 ParamVariation42=ParameterName=Wavelength|VariantValue=660 nm
 ParamDesignator42=U3B
-Variation21=Designator=U3C|UniqueId=\3TSJUHLFS\RAXGSACH|Kind=2|AlternatePart=Optical Transceiver|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-1521Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
-ParamVariation43=ParameterName=Comment|VariantValue=Optical Transceiver
-ParamDesignator43=U3C
-ParamVariation44=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator44=U3C
-ParamVariation45=ParameterName=Created|VariantValue=2019_04_09_Kreppel
+ParamVariation43=ParameterName=Iout max|VariantValue=<no parameter>
+ParamDesignator43=U3B
+ParamVariation44=ParameterName=Suppier Part Number 2|VariantValue=<no parameter>
+ParamDesignator44=U3B
+Variation17=Designator=U3C|UniqueId=\3TSJUHLFS\RAXGSACH|Kind=2|AlternatePart=Optical Transmitter|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-1521Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
+ParamVariation45=ParameterName=Comment|VariantValue=Optical Transmitter
 ParamDesignator45=U3C
-ParamVariation46=ParameterName=Data Rate|VariantValue=5 MBd
+ParamVariation46=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator46=U3C
-ParamVariation47=ParameterName=Description|VariantValue=Fibre Optic Transmitters, Receivers, Transceivers Versatile Link Horiz 5MBd Tx RoHS
+ParamVariation47=ParameterName=Created|VariantValue=2019_04_09_Kreppel
 ParamDesignator47=U3C
-ParamVariation48=ParameterName=Footprint|VariantValue=HFBRx5XX
+ParamVariation48=ParameterName=Data Rate|VariantValue=5 MBd
 ParamDesignator48=U3C
-ParamVariation49=ParameterName=Foreward Current|VariantValue=60 mA
+ParamVariation49=ParameterName=Description|VariantValue=Fibre Optic Transmitters, Receivers, Transceivers Versatile Link Horiz 5MBd Tx RoHS
 ParamDesignator49=U3C
-ParamVariation50=ParameterName=Ibis Model|VariantValue= 
+ParamVariation50=ParameterName=Footprint|VariantValue=HFBRx5XX
 ParamDesignator50=U3C
-ParamVariation51=ParameterName=Library Reference|VariantValue=HFBR-1521Z
+ParamVariation51=ParameterName=Foreward Current|VariantValue=60 mA
 ParamDesignator51=U3C
-ParamVariation52=ParameterName=MF|VariantValue=Broadcom/Avago
+ParamVariation52=ParameterName=Ibis Model|VariantValue= 
 ParamDesignator52=U3C
-ParamVariation53=ParameterName=MPN|VariantValue=HFBR-1521Z
+ParamVariation53=ParameterName=Library Reference|VariantValue=HFBR-1521Z
 ParamDesignator53=U3C
-ParamVariation54=ParameterName=PCB3D|VariantValue= 
+ParamVariation54=ParameterName=MF|VariantValue=Broadcom/Avago
 ParamDesignator54=U3C
-ParamVariation55=ParameterName=Pin Info|VariantValue= 
+ParamVariation55=ParameterName=MPN|VariantValue=HFBR-1521Z
 ParamDesignator55=U3C
-ParamVariation56=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation56=ParameterName=PCB3D|VariantValue= 
 ParamDesignator56=U3C
-ParamVariation57=ParameterName=Simulation|VariantValue= 
+ParamVariation57=ParameterName=Pin Info|VariantValue= 
 ParamDesignator57=U3C
-ParamVariation58=ParameterName=Supplier 1|VariantValue=Mouser
+ParamVariation58=ParameterName=Signal Integrity|VariantValue= 
 ParamDesignator58=U3C
-ParamVariation59=ParameterName=Supplier 2|VariantValue=Digi-Key
+ParamVariation59=ParameterName=Simulation|VariantValue= 
 ParamDesignator59=U3C
-ParamVariation60=ParameterName=Supplier Part Number 1|VariantValue=630-HFBR-1521Z
+ParamVariation60=ParameterName=Supplier 1|VariantValue=Mouser
 ParamDesignator60=U3C
-ParamVariation61=ParameterName=Supplier Part Number 2|VariantValue=516-2043-ND
+ParamVariation61=ParameterName=Supplier 2|VariantValue=Digi-Key
 ParamDesignator61=U3C
-ParamVariation62=ParameterName=Supply Voltage|VariantValue=5V
+ParamVariation62=ParameterName=Supplier Part Number 1|VariantValue=630-HFBR-1521Z
 ParamDesignator62=U3C
-ParamVariation63=ParameterName=Wavelength|VariantValue=660 nm
+ParamVariation63=ParameterName=Supplier Part Number 2|VariantValue=516-2043-ND
 ParamDesignator63=U3C
-Variation22=Designator=U3D|UniqueId=\4TSJUHLFS\RAXGSACH|Kind=2|AlternatePart=Optical Transceiver|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-1521Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
-ParamVariation64=ParameterName=Comment|VariantValue=Optical Transceiver
-ParamDesignator64=U3D
-ParamVariation65=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator65=U3D
-ParamVariation66=ParameterName=Created|VariantValue=2019_04_09_Kreppel
-ParamDesignator66=U3D
-ParamVariation67=ParameterName=Data Rate|VariantValue=5 MBd
-ParamDesignator67=U3D
-ParamVariation68=ParameterName=Description|VariantValue=Fibre Optic Transmitters, Receivers, Transceivers Versatile Link Horiz 5MBd Tx RoHS
+ParamVariation64=ParameterName=Supply Voltage|VariantValue=5V
+ParamDesignator64=U3C
+ParamVariation65=ParameterName=Wavelength|VariantValue=660 nm
+ParamDesignator65=U3C
+ParamVariation66=ParameterName=Iout max|VariantValue=<no parameter>
+ParamDesignator66=U3C
+ParamVariation67=ParameterName=Suppier Part Number 2|VariantValue=<no parameter>
+ParamDesignator67=U3C
+Variation18=Designator=U3D|UniqueId=\4TSJUHLFS\RAXGSACH|Kind=2|AlternatePart=Optical Transmitter|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Libs\UZOhm_Optical.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=HFBR-1521Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UZOhm_Optical.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=HFBRx5XX|AltLibLink_IsSameFootprint=True
+ParamVariation68=ParameterName=Comment|VariantValue=Optical Transmitter
 ParamDesignator68=U3D
-ParamVariation69=ParameterName=Footprint|VariantValue=HFBRx5XX
+ParamVariation69=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator69=U3D
-ParamVariation70=ParameterName=Foreward Current|VariantValue=60 mA
+ParamVariation70=ParameterName=Created|VariantValue=2019_04_09_Kreppel
 ParamDesignator70=U3D
-ParamVariation71=ParameterName=Ibis Model|VariantValue= 
+ParamVariation71=ParameterName=Data Rate|VariantValue=5 MBd
 ParamDesignator71=U3D
-ParamVariation72=ParameterName=Library Reference|VariantValue=HFBR-1521Z
+ParamVariation72=ParameterName=Description|VariantValue=Fibre Optic Transmitters, Receivers, Transceivers Versatile Link Horiz 5MBd Tx RoHS
 ParamDesignator72=U3D
-ParamVariation73=ParameterName=MF|VariantValue=Broadcom/Avago
+ParamVariation73=ParameterName=Footprint|VariantValue=HFBRx5XX
 ParamDesignator73=U3D
-ParamVariation74=ParameterName=MPN|VariantValue=HFBR-1521Z
+ParamVariation74=ParameterName=Foreward Current|VariantValue=60 mA
 ParamDesignator74=U3D
-ParamVariation75=ParameterName=PCB3D|VariantValue= 
+ParamVariation75=ParameterName=Ibis Model|VariantValue= 
 ParamDesignator75=U3D
-ParamVariation76=ParameterName=Pin Info|VariantValue= 
+ParamVariation76=ParameterName=Library Reference|VariantValue=HFBR-1521Z
 ParamDesignator76=U3D
-ParamVariation77=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation77=ParameterName=MF|VariantValue=Broadcom/Avago
 ParamDesignator77=U3D
-ParamVariation78=ParameterName=Simulation|VariantValue= 
+ParamVariation78=ParameterName=MPN|VariantValue=HFBR-1521Z
 ParamDesignator78=U3D
-ParamVariation79=ParameterName=Supplier 1|VariantValue=Mouser
+ParamVariation79=ParameterName=PCB3D|VariantValue= 
 ParamDesignator79=U3D
-ParamVariation80=ParameterName=Supplier 2|VariantValue=Digi-Key
+ParamVariation80=ParameterName=Pin Info|VariantValue= 
 ParamDesignator80=U3D
-ParamVariation81=ParameterName=Supplier Part Number 1|VariantValue=630-HFBR-1521Z
+ParamVariation81=ParameterName=Signal Integrity|VariantValue= 
 ParamDesignator81=U3D
-ParamVariation82=ParameterName=Supplier Part Number 2|VariantValue=516-2043-ND
+ParamVariation82=ParameterName=Simulation|VariantValue= 
 ParamDesignator82=U3D
-ParamVariation83=ParameterName=Supply Voltage|VariantValue=5V
+ParamVariation83=ParameterName=Supplier 1|VariantValue=Mouser
 ParamDesignator83=U3D
-ParamVariation84=ParameterName=Wavelength|VariantValue=660 nm
+ParamVariation84=ParameterName=Supplier 2|VariantValue=Digi-Key
 ParamDesignator84=U3D
-Variation23=Designator=R13A|UniqueId=\1TSJUHLFS\GFSMCDPK|Kind=1|AlternatePart= 
-Variation24=Designator=R13C|UniqueId=\3TSJUHLFS\GFSMCDPK|Kind=1|AlternatePart= 
-Variation25=Designator=R13B|UniqueId=\2TSJUHLFS\GFSMCDPK|Kind=1|AlternatePart= 
-Variation26=Designator=R13D|UniqueId=\4TSJUHLFS\GFSMCDPK|Kind=1|AlternatePart= 
-ParamVariationCount=84
+ParamVariation85=ParameterName=Supplier Part Number 1|VariantValue=630-HFBR-1521Z
+ParamDesignator85=U3D
+ParamVariation86=ParameterName=Supplier Part Number 2|VariantValue=516-2043-ND
+ParamDesignator86=U3D
+ParamVariation87=ParameterName=Supply Voltage|VariantValue=5V
+ParamDesignator87=U3D
+ParamVariation88=ParameterName=Wavelength|VariantValue=660 nm
+ParamDesignator88=U3D
+ParamVariation89=ParameterName=Iout max|VariantValue=<no parameter>
+ParamDesignator89=U3D
+ParamVariation90=ParameterName=Suppier Part Number 2|VariantValue=<no parameter>
+ParamDesignator90=U3D
+Variation19=Designator=R13A|UniqueId=\1TSJUHLFS\GFSMCDPK|Kind=1|AlternatePart= 
+Variation20=Designator=R13C|UniqueId=\3TSJUHLFS\GFSMCDPK|Kind=1|AlternatePart= 
+Variation21=Designator=R13B|UniqueId=\2TSJUHLFS\GFSMCDPK|Kind=1|AlternatePart= 
+Variation22=Designator=R13D|UniqueId=\4TSJUHLFS\GFSMCDPK|Kind=1|AlternatePart= 
+ParamVariationCount=90
 
 [ProjectVariant2]
 UniqueID=267A4DA3-A555-4E0E-B038-0CD9A042998F
@@ -1174,36 +1182,6 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
