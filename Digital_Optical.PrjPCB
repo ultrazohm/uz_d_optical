@@ -194,7 +194,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document10]
-DocumentPath=Digital_Optical_18Tx_14Tx4Rx_18Rx.PcbDoc
+DocumentPath=Digital_Optical.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -629,20 +629,20 @@ Path=..\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=AuthorParam
-Value=B. Kohlmann
+Name=ProjectRevision
+Value=Rev07
 
 [Parameter2]
+Name=ProjectName
+Value=Digital_Optical
+
+[Parameter3]
 Name=Date
 Value=07/21
 
-[Parameter3]
-Name=ProjectName
-Value=Digital_Adapter_Optical_18Tx/14Tx_4Rx/18Rx
-
 [Parameter4]
-Name=ProjectRevision
-Value=Rev07
+Name=AuthorParam
+Value=B. Kohlmann
 
 [Configuration1]
 Name=Sources
